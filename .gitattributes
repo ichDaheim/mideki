@@ -1,0 +1,2 @@
+# Token IDs are pinned by token_map_sha256() over the raw bytes: never convert line endings.
+src/mideki/data/token_map_de.json -text

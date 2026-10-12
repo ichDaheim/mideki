@@ -1,0 +1,650 @@
+{
+  "version": "0.1.0",
+  "categories": {
+    "phonemes": [
+      {
+        "symbol": "n",
+        "ipa_beschreibung": "stimmhafter alveolarer Nasal",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 652182349
+      },
+      {
+        "symbol": "t",
+        "ipa_beschreibung": "stimmloser alveolarer Plosiv",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 426878635
+      },
+      {
+        "symbol": "ə",
+        "ipa_beschreibung": "Schwa (unbetonter Zentralvokal, z.B. \"e\" in \"bitte\")",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 363272180
+      },
+      {
+        "symbol": "d",
+        "ipa_beschreibung": "stimmhafter alveolarer Plosiv",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 286441657
+      },
+      {
+        "symbol": "ɾ",
+        "ipa_beschreibung": "stimmhafter alveolarer Flap (Zungenspitzen-r, z.B. in \"Butter\")",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 271799701
+      },
+      {
+        "symbol": "ɛ",
+        "ipa_beschreibung": "offener ungerundeter Vorderzungenvokal, kurz (z.B. \"ä\"/\"e\" in \"Bett\")",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 239310957
+      },
+      {
+        "symbol": "ɪ",
+        "ipa_beschreibung": "offener ungerundeter Vorderzungenvokal, kurz (\"i\" in \"Bitte\")",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 229703907
+      },
+      {
+        "symbol": "l",
+        "ipa_beschreibung": "stimmhafter alveolarer Lateral",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 208430742
+      },
+      {
+        "symbol": "a",
+        "ipa_beschreibung": "offener ungerundeter Zentralvokal, kurz (\"a\" in \"Mann\")",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 208089140
+      },
+      {
+        "symbol": "s",
+        "ipa_beschreibung": "stimmloser alveolarer Sibilant",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 195563227
+      },
+      {
+        "symbol": "i",
+        "ipa_beschreibung": "geschlossener ungerundeter Vorderzungenvokal, lang (\"i\" in \"Liebe\")",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 177969062
+      },
+      {
+        "symbol": "ʊ",
+        "ipa_beschreibung": "offener gerundeter Hinterzungenvokal, kurz (\"u\" in \"Mutter\")",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 166229614
+      },
+      {
+        "symbol": "f",
+        "ipa_beschreibung": "stimmloser labiodentaler Frikativ",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 164268355
+      },
+      {
+        "symbol": "ʦ",
+        "ipa_beschreibung": "stimmlose alveolare Affrikate (\"z\" wie in \"Zeit\")",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 161941257
+      },
+      {
+        "symbol": "m",
+        "ipa_beschreibung": "stimmhafter bilabialer Nasal",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 159020607
+      },
+      {
+        "symbol": "e",
+        "ipa_beschreibung": "geschlossener ungerundeter Vorderzungenvokal, lang (\"e\" in \"Beet\")",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 144991893
+      },
+      {
+        "symbol": "I",
+        "ipa_beschreibung": "Diphthong /aɪ/ (\"ei\" in \"Eis\")",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 139207418
+      },
+      {
+        "symbol": "k",
+        "ipa_beschreibung": "stimmloser velarer Plosiv",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 131624805
+      },
+      {
+        "symbol": "v",
+        "ipa_beschreibung": "stimmhafter labiodentaler Frikativ",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 123988579
+      },
+      {
+        "symbol": "ɑ",
+        "ipa_beschreibung": "offener ungerundeter Hinterzungenvokal, lang (v.a. in Fremdwörtern)",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 122312657
+      },
+      {
+        "symbol": "b",
+        "ipa_beschreibung": "stimmhafter bilabialer Plosiv",
+        "beispiel": "Die Verbindung, die durch das Teilen von Geschichten, Kunst und Kultur entstand, half allen Beteiligten, Vorurteile abzubauen und Empathie zu entwickeln.",
+        "haeufigkeit": 114725085
+      },
+      {
+        "symbol": "z",
+        "ipa_beschreibung": "stimmhafter alveolarer Sibilant",
+        "beispiel": "Oft war sie von der Angst geplagt, entdeckt und zurückgeschickt zu werden, doch der Drang nach Sicherheit trieb sie weiter.",
+        "haeufigkeit": 114399974
+      },
+      {
+        "symbol": "ɜ",
+        "ipa_beschreibung": "mittlerer ungerundeter Zentralvokal (vokalisiertes r nach Konsonant, z.B. \"Wasser\")",
+        "beispiel": "Oft war sie von der Angst geplagt, entdeckt und zurückgeschickt zu werden, doch der Drang nach Sicherheit trieb sie weiter.",
+        "haeufigkeit": 112715955,
+        "hinweis": "Realisierung von espeak-ng für unbetontes -er; Abgrenzung zu ɐ ggf. phonetisch gegenprüfen."
+      },
+      {
+        "symbol": "ɡ",
+        "ipa_beschreibung": "stimmhafter velarer Plosiv",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 109183901
+      },
+      {
+        "symbol": "r",
+        "ipa_beschreibung": "stimmhafter alveolarer Vibrant (gerolltes r)",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 101531437
+      },
+      {
+        "symbol": "o",
+        "ipa_beschreibung": "geschlossener gerundeter Hinterzungenvokal, lang (\"o\" in \"Boot\")",
+        "beispiel": "Die Verbindung, die durch das Teilen von Geschichten, Kunst und Kultur entstand, half allen Beteiligten, Vorurteile abzubauen und Empathie zu entwickeln.",
+        "haeufigkeit": 94584180
+      },
+      {
+        "symbol": "ç",
+        "ipa_beschreibung": "stimmloser palataler Frikativ (Ich-Laut)",
+        "beispiel": "Oft war sie von der Angst geplagt, entdeckt und zurückgeschickt zu werden, doch der Drang nach Sicherheit trieb sie weiter.",
+        "haeufigkeit": 87792580
+      },
+      {
+        "symbol": "ʃ",
+        "ipa_beschreibung": "stimmloser postalveolarer Frikativ (\"sch\")",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 81512877
+      },
+      {
+        "symbol": "ɔ",
+        "ipa_beschreibung": "offener gerundeter Hinterzungenvokal, kurz (\"o\" in \"Kopf\")",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 79953437
+      },
+      {
+        "symbol": "p",
+        "ipa_beschreibung": "stimmloser bilabialer Plosiv",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 74697494
+      },
+      {
+        "symbol": "h",
+        "ipa_beschreibung": "stimmloser glottaler Frikativ",
+        "beispiel": "Oft war sie von der Angst geplagt, entdeckt und zurückgeschickt zu werden, doch der Drang nach Sicherheit trieb sie weiter.",
+        "haeufigkeit": 69836044
+      },
+      {
+        "symbol": "W",
+        "ipa_beschreibung": "Diphthong /aʊ/ (\"au\" in \"Haus\")",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 54163335
+      },
+      {
+        "symbol": "u",
+        "ipa_beschreibung": "geschlossener gerundeter Hinterzungenvokal, lang (\"u\" in \"Buch\")",
+        "beispiel": "Oft war sie von der Angst geplagt, entdeckt und zurückgeschickt zu werden, doch der Drang nach Sicherheit trieb sie weiter.",
+        "haeufigkeit": 53211879
+      },
+      {
+        "symbol": "ŋ",
+        "ipa_beschreibung": "stimmhafter velarer Nasal",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 42609768
+      },
+      {
+        "symbol": "x",
+        "ipa_beschreibung": "stimmloser velarer Frikativ (Ach-Laut)",
+        "beispiel": "Oft war sie von der Angst geplagt, entdeckt und zurückgeschickt zu werden, doch der Drang nach Sicherheit trieb sie weiter.",
+        "haeufigkeit": 37133794
+      },
+      {
+        "symbol": "ʋ",
+        "ipa_beschreibung": "Diphthong /ɔø/ (\"eu\"/\"äu\" in \"Heu\")",
+        "beispiel": "Es war eine kleine, aber bedeutende Veränderung in der Gesellschaft, die dazu beitrug, Barrieren zu überwinden und das Verständnis füreinander zu fördern.",
+        "haeufigkeit": 36184799
+      },
+      {
+        "symbol": "j",
+        "ipa_beschreibung": "stimmhafter palataler Approximant",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 29734722
+      },
+      {
+        "symbol": "y",
+        "ipa_beschreibung": "geschlossener gerundeter Vorderzungenvokal, lang (\"ü\" in \"über\")",
+        "beispiel": "Es war eine kleine, aber bedeutende Veränderung in der Gesellschaft, die dazu beitrug, Barrieren zu überwinden und das Verständnis füreinander zu fördern.",
+        "haeufigkeit": 24791643
+      },
+      {
+        "symbol": "ʏ",
+        "ipa_beschreibung": "offener gerundeter Vorderzungenvokal, kurz (\"ü\" in \"Hütte\")",
+        "beispiel": "Oft war sie von der Angst geplagt, entdeckt und zurückgeschickt zu werden, doch der Drang nach Sicherheit trieb sie weiter.",
+        "haeufigkeit": 24037790
+      },
+      {
+        "symbol": "ɐ",
+        "ipa_beschreibung": "mittlerer ungerundeter Zentralvokal (vokalisiertes r nach Vokal, z.B. \"Vater\")",
+        "beispiel": "Die Verbindung, die durch das Teilen von Geschichten, Kunst und Kultur entstand, half allen Beteiligten, Vorurteile abzubauen und Empathie zu entwickeln.",
+        "haeufigkeit": 19812883,
+        "hinweis": "Abgrenzung zu ɜ ggf. phonetisch gegenprüfen."
+      },
+      {
+        "symbol": "œ",
+        "ipa_beschreibung": "offener gerundeter Vorderzungenvokal, kurz (\"ö\" in \"können\")",
+        "beispiel": "Es war eine kleine, aber bedeutende Veränderung in der Gesellschaft, die dazu beitrug, Barrieren zu überwinden und das Verständnis füreinander zu fördern.",
+        "haeufigkeit": 9997535
+      },
+      {
+        "symbol": "ø",
+        "ipa_beschreibung": "geschlossener gerundeter Vorderzungenvokal, lang (\"ö\" in \"Höhle\")",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 8537033
+      },
+      {
+        "symbol": "ʧ",
+        "ipa_beschreibung": "stimmlose postalveolare Affrikate (\"tsch\")",
+        "beispiel": "Die Verbindung, die durch das Teilen von Geschichten, Kunst und Kultur entstand, half allen Beteiligten, Vorurteile abzubauen und Empathie zu entwickeln.",
+        "haeufigkeit": 8304871
+      },
+      {
+        "symbol": "ꭧ",
+        "ipa_beschreibung": "stimmlose labiodentale Affrikate (deutsches \"pf\")",
+        "beispiel": "Doch es gab auch Zeiten der Erschöpfung, in denen die Belastungen zu groß wurden und sie sich fragte, ob sie wirklich genug tat, um all den Menschen zu helfen, die auf Unterstützung angewiesen waren.",
+        "haeufigkeit": 3520673
+      },
+      {
+        "symbol": "ɒ",
+        "ipa_beschreibung": "offener gerundeter Hinterzungenvokal, englisch (wie \"o\" in \"hot\")",
+        "beispiel": "Ich passe die Lautstärke an, um die Dialoge und die ikonischen Songs wie 'Sweet Home Alabama' und 'Fortunate Son' optimal zur Geltung zu bringen.",
+        "haeufigkeit": 1491039,
+        "hinweis": "Kommt aus zitierten englischen Songs/Filmtiteln/Eigennamen (z.B. \"Alabama\"), nicht aus nativ deutschen Wörtern."
+      },
+      {
+        "symbol": "ð",
+        "ipa_beschreibung": "stimmhafter dentaler Frikativ, englisch (\"th\" in \"the\")",
+        "beispiel": "Namen wie Leonardo DiCaprio, Cate Blanchett und Heath Ledger fallen, während sie über 'Inception', 'Elizabeth' und 'The Dark Knight' sprechen.",
+        "haeufigkeit": 975571,
+        "hinweis": "Kommt aus zitierten englischen Filmtiteln (z.B. \"The Dark Knight\"), nicht aus nativem Deutsch."
+      },
+      {
+        "symbol": "ɹ",
+        "ipa_beschreibung": "stimmhafter alveolarer Approximant, englisch (\"r\")",
+        "beispiel": "Durch die Integration von Augmented Reality könnten Fernseher auch das tägliche Leben bereichern.",
+        "haeufigkeit": 924043,
+        "hinweis": "Kommt aus englischen Lehnwörtern/Titeln (z.B. \"Reality\", \"Stream\")."
+      },
+      {
+        "symbol": "ʤ",
+        "ipa_beschreibung": "stimmhafte postalveolare Affrikate (engl. \"j\", z.B. in Namen wie \"Jones\")",
+        "beispiel": "Ich überprüfe das Programm und finde 'Indiana Jones – Jäger des verlorenen Schatzes' mit Harrison Ford.",
+        "haeufigkeit": 859637,
+        "hinweis": "Kommt v.a. in zitierten englischen Eigennamen/Titeln vor."
+      },
+      {
+        "symbol": "w",
+        "ipa_beschreibung": "stimmhafter labiovelarer Approximant, englisch (\"w\")",
+        "beispiel": "Am Nachmittag, während der Alltag der Bewohner weitergeht, erhalte ich eine Anfrage: 'Smarthome, starte die Playlist ‚Workout Motivation‘.'",
+        "haeufigkeit": 683608,
+        "hinweis": "Kommt aus englischen Lehnwörtern/Titeln (z.B. \"Workout\"), nicht aus nativem Deutsch (dort \"w\" = /v/)."
+      },
+      {
+        "symbol": "ʌ",
+        "ipa_beschreibung": "offener bis mittlerer ungerundeter Hinterzungenvokal, englisch (wie \"u\" in \"cup\")",
+        "beispiel": "Ich überprüfe die Verbindung zum Fernseher und stelle fest, dass die Verbindung stabil ist, aber die Fernseh-App ein kleines Update benötigt.",
+        "haeufigkeit": 373198,
+        "hinweis": "Kommt aus englischen Lehnwörtern/Eigennamen (z.B. \"App\")."
+      },
+      {
+        "symbol": "ʒ",
+        "ipa_beschreibung": "stimmhafter postalveolarer Frikativ, aus französischstämmigen Lehnwörtern (z.B. \"Garage\")",
+        "beispiel": "Gemeinsam mit anderen engagierten Freiwilligen vermittelte sie Sprachkurse, bot rechtliche Beratung an und organisierte Kulturveranstaltungen, um den Austausch zwischen den verschiedenen Gemeinschaften zu fördern.",
+        "haeufigkeit": 281340
+      },
+      {
+        "symbol": "ɕ",
+        "ipa_beschreibung": "stimmloser alveolopalataler Frikativ",
+        "beispiel": "1903 heiratete Einstein seine erste Frau, Mileva Marić.",
+        "haeufigkeit": 133616,
+        "hinweis": "Kommt aus fremdsprachigen (slawischen) Eigennamen mit diakritischen Zeichen, z.B. \"Marić\" -> \"mˈaritɕ\", \"Solidarność\" -> \"sˌɔlidˈarnɔɕtɕ\" — kein deutsches Phonem, Transliterationsartefakt."
+      },
+      {
+        "symbol": "ɲ",
+        "ipa_beschreibung": "stimmhafter palataler Nasal (z.B. span. \"ñ\", franz./ital. \"gn\")",
+        "beispiel": "Einige europäische oder europäischstämmige Regisseure haben jedoch einzelne Filme gedreht, denen eine Stilverwandtschaft anzuerkennen ist oder die unmittelbar als Hommage an Hitchcock gedacht sind, zum Beispiel Ministerium der Angst von Fritz Lang (1943), Der dritte Mann von Carol Reed (1949), Zeugin der Anklage von Billy Wilder (1957), Frantic von Roman Polański (1988) und Schatten der Vergangenheit von Kenneth Branagh (1991).",
+        "haeufigkeit": 67184,
+        "hinweis": "Kommt aus fremdsprachigen Eigennamen (z.B. spanische/französische/italienische Namen)."
+      },
+      {
+        "symbol": "ɨ",
+        "ipa_beschreibung": "geschlossener ungerundeter Zentralvokal (z.B. poln. \"y\")",
+        "beispiel": "Ein Jahrzehnt darauf folgte der polnische Philosoph Kazimierz Łyszczyński in seinem – bis auf wenige Zitate verlorenen – Werk De non existentia Dei (dt.",
+        "haeufigkeit": 48922,
+        "hinweis": "Kommt v.a. aus polnischen Eigennamen (z.B. \"Drożdżyński\", \"Łyszczyński\")."
+      },
+      {
+        "symbol": "θ",
+        "ipa_beschreibung": "stimmloser dentaler Frikativ, englisch (\"th\" in \"think\")",
+        "beispiel": "Als die letzten Synthesizerklänge verblassten, klang eine einzige Melodie aus dem Hintergrund.",
+        "haeufigkeit": 45480,
+        "hinweis": "Kommt aus als englisch erkannten Wörtern (z.B. \"Synthesizer\" -> \"sˈɪnθəsˌIzə\"); espeak-ng behandelt solche Wörter teils wie \"software\"/\"hardware\" (siehe mideki/normalize.py Schritt 3b) mit ähnlichem Risiko, dass anschließende Kompositum-Teile falsch mitgerissen werden — bisher nicht weiter untersucht."
+      },
+      {
+        "symbol": "ʲ",
+        "ipa_beschreibung": "Palatalisierung (Erweichungszeichen), z.B. russische weiche Konsonanten",
+        "beispiel": "Bereits im August 1944 fielen der Sowjetunion bei der Eroberung des Testgeländes auf dem SS-Truppenübungsplatz Heidelager bei Dębica im Süden des Generalgouvernements Trümmer zerlegter A4-Raketen und Reste demontierter Abschussanlagen in die Hände und ermöglichten es, erste grundlegende technische Daten des deutschen Raketenprogramms zu sammeln.",
+        "haeufigkeit": 44620,
+        "hinweis": "Kommt aus slawischen (v.a. polnischen/russischen) Eigennamen."
+      },
+      {
+        "symbol": "ʑ",
+        "ipa_beschreibung": "stimmhafter alveolopalataler Frikativ (z.B. poln. \"ź\")",
+        "beispiel": "Bielefeld hat Patenschaften für die ehemals ostdeutschen Städte Gumbinnen/Ostpreußen (Gussew, Oblast Kaliningrad, Russland), Wansen/Schlesien (Wiązów, Polen) und Münsterberg/Schlesien (Ziębice, Polen) übernommen.",
+        "haeufigkeit": 14421,
+        "hinweis": "Kommt aus polnischen Eigennamen."
+      },
+      {
+        "symbol": "ᵻ",
+        "ipa_beschreibung": "schwacher/reduzierter zentraler Vokal, englisch",
+        "beispiel": "Cambridge 2006 (gut bebildertes Nachschlagewerk zur klassischen Antike; Rezension in Bryn Mawr Classical Review).",
+        "haeufigkeit": 13593,
+        "hinweis": "Kommt v.a. aus Listen englischer Abkürzungen (z.B. \"ECFR European Company and Financial Law Review (Zeitschrift)\") — ein glossarartiger Satztyp, den is_probably_prose() nicht abfängt, weil er mit \")\" endet und die anderen Kriterien erfüllt; espeak-ng liest die Abkürzung englisch aus. Noch nicht durch einen eigenen Filter behoben."
+      },
+      {
+        "symbol": "æ",
+        "ipa_beschreibung": "fast offener ungerundeter Vorderzungenvokal, englisch (wie \"a\" in \"cat\")",
+        "beispiel": "Sonys neues Gerät wurde schnell zum Liebling der techaffinen Nutzer, die nach einer Alternative zu Apples iPad suchten, aber gleichzeitig die Funktionalität eines Laptops wünschten.",
+        "haeufigkeit": 8557,
+        "hinweis": "Kommt nur aus handgeschriebenen Overrides für englische Marken-/Techbegriffe (z.B. \"Apache\", \"GAN\")."
+      },
+      {
+        "symbol": "l̩",
+        "ipa_beschreibung": "silbischer alveolarer Lateral (silbenbildendes l, z.B. in \"Rätsel\")",
+        "beispiel": "Die Fusion bleibt ein technisches Rätsel.",
+        "haeufigkeit": 7684
+      },
+      {
+        "symbol": "ʁ",
+        "ipa_beschreibung": "stimmhafter uvularer Frikativ (Reibe-r)",
+        "beispiel": "Der Planet hat 14 bekannte Monde, von denen Triton der größte und auffälligste ist.",
+        "haeufigkeit": 7322
+      },
+      {
+        "symbol": "n̩",
+        "ipa_beschreibung": "silbischer alveolarer Nasal (silbenbildendes n, z.B. in \"haben\" reduziert)",
+        "beispiel": "Die Briten ließen im Oktober 1945 mehrere A4-Raketen durch Kriegsgefangene aus ehemaligen deutschen Starteinheiten in der Nähe von Cuxhaven starten, um Vertretern der alliierten Besatzungsmächte die „Wunderwaffe V2“ beim Start zu demonstrieren (Operation Backfire, → Raketenstarts in Cuxhaven).",
+        "haeufigkeit": 6266
+      },
+      {
+        "symbol": "A",
+        "ipa_beschreibung": "Diphthong /eɪ/, englisch (wie \"ay\" in \"day\")",
+        "beispiel": "Die Konkurrenz in diesem Bereich war jedoch ebenso intensiv – Nvidia und AMD beherrschten den Markt mit ihren beeindruckenden Grafikkarten, die von Gamern und Entwicklern gleichermaßen geschätzt wurden.",
+        "haeufigkeit": 5415,
+        "hinweis": "Kommt ausschließlich aus handgeschriebenen Overrides für englische Marken-/Techbegriffe (z.B. \"AMD\")."
+      },
+      {
+        "symbol": "ɣ",
+        "ipa_beschreibung": "stimmhafter velarer Frikativ",
+        "beispiel": "Es wird gegenüber 226Ra bevorzugt, da es vergleichsweise wenig γ-Strahlung emittiert.",
+        "haeufigkeit": 4486,
+        "hinweis": "Kommt aus spanischen/griechischen/arabischen Lehnwörtern und Eigennamen."
+      },
+      {
+        "symbol": "ɚ",
+        "ipa_beschreibung": "r-gefärbter Schwa, englisch (wie \"er\" in \"better\")",
+        "beispiel": "Hugging Face förderte auch eine Kultur des Wissenstransfers, indem es regelmäßig Konferenzen und Veranstaltungen wie das 'Transformers Summit' organisierte, bei denen Forscher, Entwickler und Unternehmen ihre neuesten Erkenntnisse und Technologien teilten.",
+        "haeufigkeit": 1213,
+        "hinweis": "Kommt ausschließlich aus einem handgeschriebenen Override (\"Transformers\")."
+      },
+      {
+        "symbol": "ʔ",
+        "ipa_beschreibung": "Knacklaut (glottaler Plosiv)",
+        "beispiel": "Die Konsonanten ʔ, w, j und n werden als „schwache Radikale“ bezeichnet.",
+        "haeufigkeit": 976,
+        "hinweis": "Kommt sowohl aus nativem Deutsch (Vokal-Neueinsatz) als auch aus fremdsprachigen Eigennamen (z.B. arabischer Hamza-Laut) — Herkunft je nach Kontext unterschiedlich."
+      },
+      {
+        "symbol": "O",
+        "ipa_beschreibung": "Diphthong /oʊ/, englisch (wie \"o\" in \"go\")",
+        "beispiel": "Amazon Prime Video konkurrierte zunehmend mit Netflix und Disney+, indem es Milliarden in eigene Filme und Serien investierte",
+        "haeufigkeit": 880,
+        "hinweis": "Kommt ausschließlich aus handgeschriebenen Overrides für englische Marken-/Techbegriffe (z.B. \"Prime Video\")."
+      },
+      {
+        "symbol": "1",
+        "ipa_beschreibung": "(kein echtes Phonem — Datenartefakt)",
+        "beispiel": "Die Kirche steht in der ehemaligen Hindenburgstraße (jetzt Leninstraße / ул.",
+        "haeufigkeit": 328,
+        "hinweis": "Literale Ziffer \"1\", die bei espeak-ngs Buchstabieren unbekannter Schriften (kyrillisch, georgisch) vereinzelt mit rein rutscht (z.B. \"Л-3\", \"ул.\") — Restmenge nach dem Non-Latin-Schriftfilter (2026-09-14: 48.896 → 350 Vorkommen durch den Filter reduziert). Nicht Teil des eigentlichen deutschen Phonemsystems."
+      },
+      {
+        "symbol": "q",
+        "ipa_beschreibung": "stimmloser uvularer Plosiv",
+        "beispiel": "Umschriftvariante des koreanischen Zeichens 박, siehe zu Namensträgern Park (koreanischer Familienname)",
+        "haeufigkeit": 19,
+        "hinweis": "Kommt aus arabischen/zentralasiatischen Eigennamen (z.B. arabisches Qaf)."
+      },
+      {
+        "symbol": "ʰ",
+        "ipa_beschreibung": "Aspiration (Hauchlaut-Diakritikum)",
+        "beispiel": "Neben den bereits erwähnten zusätzlichen Zeichen wurde der Buchstabe ჽ speziell für das Ossetische erstellt, was dem heutigen kyrillischen ӕ entspricht.",
+        "haeufigkeit": 16,
+        "hinweis": "Kommt aus georgischer Schrift (z.B. \"საქართველო\") — espeak-ng buchstabiert unbekannte Schriften aus (siehe \"kyrillischer Buchstabe\"-Phänomen in plan/de-phonem-kompression-erkenntnisse.md). Der Non-Latin-Schriftfilter in fetch_wikipedia.py deckt seit 2026-09-15 alle Unicode-Skripte ab (Script=Latin/Common/Inherited-Whitelist statt Blacklist) und hat die Häufigkeit bereits massiv reduziert (783→16); die Restmenge stammt aus Sätzen, die genau EIN fremdes Schriftzeichen außerhalb von Klammern nennen (z.B. \"der Buchstabe ჽ\") — das bleibt bewusst unter dem MAX_NON_LATIN_CHARS-Toleranzschwellenwert (2), damit Sätze mit einem einzelnen legitimen Symbol (z.B. \"π\" in einem Mathesatz) nicht pauschal verworfen werden."
+      },
+      {
+        "symbol": "ɬ",
+        "ipa_beschreibung": "stimmloser lateraler Frikativ",
+        "beispiel": "und ist als Download verfügbar unter http://www.indiapolicy.sabhlokcity.com/party/political.html s. u.",
+        "haeufigkeit": 11,
+        "hinweis": "Kommt aus walisischen oder anderen fremdsprachigen Eigennamen (walis. \"ll\")."
+      },
+      {
+        "symbol": "ɯ",
+        "ipa_beschreibung": "geschlossener ungerundeter Hinterzungenvokal",
+        "beispiel": "hopeu 호프 (Bierhalle, Bierkneipe; von Hof oder Bierhof?",
+        "haeufigkeit": 9,
+        "hinweis": "Kommt aus ostasiatischen Eigennamen (z.B. koreanisch/japanisch)."
+      },
+      {
+        "symbol": "ʣ",
+        "ipa_beschreibung": "stimmhafte alveolare Affrikate (stimmhaftes Gegenstück zu ʦ)",
+        "beispiel": "Laut Tamas Gamqrelidse ist die Affrikate ძ das zentrale Mitglied des zweiten Teils des georgischen Alphabets mit links und rechts symmetrisch angeordneten Lauten, jeweils stimmlosen und glottalisierten Affrikaten.",
+        "haeufigkeit": 3,
+        "hinweis": "Sehr selten (Tabelleneintrag in mideki/espeak.py (TIE_COMPRESSION) schon vorgesehen, aber in der ursprünglichen ~292k-Stichprobe nie aufgetreten) — kommt z.B. aus georgischen Eigennamen vor (\"-dse\"-Endungen)."
+      },
+      {
+        "symbol": "c",
+        "ipa_beschreibung": "stimmloser palataler Plosiv",
+        "beispiel": "ჭ (Tschar) kann ohne den Haken oben und oft mit einer vollständig geraden vertikalen Linie geschrieben werden.",
+        "haeufigkeit": 3,
+        "hinweis": "Kommt aus fremdsprachigen Eigennamen (z.B. ungarisch beeinflusst)."
+      },
+      {
+        "symbol": "ɫ",
+        "ipa_beschreibung": "velarisiertes l (\"dunkles l\")",
+        "beispiel": "kopel 코펠 (Kocher für Freizeit, Bergsteigen)",
+        "haeufigkeit": 3,
+        "hinweis": "Kommt aus slawischen/englischen Eigennamen."
+      },
+      {
+        "symbol": "ʍ",
+        "ipa_beschreibung": "stimmloser labiovelarer Frikativ (\"wh\", z.B. schottisches Englisch)",
+        "beispiel": "Die Zellen weisen eine Sauerstoffaufnahmerate von 1760 µmol/dm³h (µᴍ/h) auf.",
+        "haeufigkeit": 3,
+        "hinweis": "Kommt aus englischen Eigennamen/Zitaten."
+      },
+      {
+        "symbol": "ɻ",
+        "ipa_beschreibung": "retroflexer Approximant",
+        "beispiel": "Ein für das Tamil charakteristischer Laut ist das ழ் ḻ, das teils als retroflexer Approximant //, teils als retroflexer Frikativ // beschrieben wird.",
+        "haeufigkeit": 2,
+        "hinweis": "Kommt aus ostasiatischen (z.B. chinesischen) Eigennamen (Mandarin-r)."
+      },
+      {
+        "symbol": "ɳ",
+        "ipa_beschreibung": "retroflexer Nasal",
+        "beispiel": "Er ernannte ihn nicht nur zum obersten Heerführer seiner Ganas (Sanskrit गण gaṇa Schar, Reihe (von Lebendigem und Leblosem), Gefolge, Anhang, Scharengottheiten, göttliche Armeen), sondern sagte auch allen anwesenden Göttern, dass Ganesha immer zuerst angebetet werden würde, die anderen Götter erst nach ihm.",
+        "haeufigkeit": 1,
+        "hinweis": "Kommt aus südasiatischen Eigennamen/Begriffen."
+      },
+      {
+        "symbol": "χ",
+        "ipa_beschreibung": "stimmloser uvularer Frikativ",
+        "beispiel": "Folgt dem Konsonanten ein anderer Vokal, wird das Konsonantenzeichen durch ein diakritisches Zeichen modifiziert: So ersetzt das Zeichen ி den inhärenten Vokal a durch den Vokal i (z. B.",
+        "haeufigkeit": 1,
+        "hinweis": "Kommt aus fremdsprachigen Eigennamen/Lehnwörtern (z.B. niederländisch/hebräisch beeinflusst)."
+      },
+      {
+        "symbol": "ɭ",
+        "ipa_beschreibung": "retroflexer Lateral",
+        "beispiel": "Da deren Aussprache mit ರ (ra) bzw. ಳ (ḷa) zusammengefallen war, wurden sie seit etwa 1800 durch diese Buchstaben ersetzt.",
+        "haeufigkeit": 1,
+        "hinweis": "Kommt aus südasiatischen Eigennamen/Begriffen."
+      },
+      {
+        "symbol": "ɟ",
+        "ipa_beschreibung": "stimmhafter palataler Plosiv",
+        "beispiel": "Als indischer Vorname leitet Jay sich von dem Sanskrit-Wort जय (jaya) mit der Bedeutung „Sieg“ her.",
+        "haeufigkeit": 1,
+        "hinweis": "Kommt aus fremdsprachigen Eigennamen."
+      },
+      {
+        "symbol": "ʐ",
+        "ipa_beschreibung": "stimmhafter retroflexer Frikativ",
+        "beispiel": "Außerdem wird der Buchstabe zur Transliteration des tamilischen Buchstaben ழ benutzt.",
+        "haeufigkeit": 1,
+        "hinweis": "Kommt aus slawischen/ostasiatischen Eigennamen."
+      },
+      {
+        "symbol": "ʂ",
+        "ipa_beschreibung": "stimmloser retroflexer Frikativ",
+        "beispiel": "Im Ergebnis entsteht typischerweise im Slawischen x, im Baltischen š, im Albanischen sh und im Sanskrit ष /ṣ/.",
+        "haeufigkeit": 1,
+        "hinweis": "Kommt aus ostasiatischen/slawischen Eigennamen (z.B. chinesisches Pinyin \"sh\", polnisch/russisch)."
+      }
+    ],
+    "stress_markers": [
+      {
+        "symbol": "ˈ",
+        "ipa_beschreibung": "Hauptbetonung (primärer Wortakzent, steht vor der betonten Silbe)",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 650821821
+      },
+      {
+        "symbol": "ˌ",
+        "ipa_beschreibung": "Nebenbetonung (sekundärer Wortakzent)",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 366639827
+      }
+    ],
+    "length_markers": [
+      {
+        "symbol": "ː",
+        "ipa_beschreibung": "Längezeichen (verlängert den vorangehenden Vokal)",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 615112015
+      }
+    ],
+    "punctuation": [
+      {
+        "symbol": ".",
+        "ipa_beschreibung": "Punkt",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 61731654
+      },
+      {
+        "symbol": ",",
+        "ipa_beschreibung": "Komma",
+        "beispiel": "Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf in einem von Krieg und Zerstörung geprägten Land lebte.",
+        "haeufigkeit": 47145498
+      },
+      {
+        "symbol": "(",
+        "ipa_beschreibung": "runde Klammer, öffnend",
+        "beispiel": "Gegründet in den frühen 90er Jahren von Jen-Hsun Huang, Chris Malachowsky und Curtis Priem, hatte sich Nvidia schnell einen Ruf als führender Anbieter von Grafikprozessoren (GPUs) erarbeitet.",
+        "haeufigkeit": 13234661
+      },
+      {
+        "symbol": ")",
+        "ipa_beschreibung": "runde Klammer, schließend",
+        "beispiel": "Gegründet in den frühen 90er Jahren von Jen-Hsun Huang, Chris Malachowsky und Curtis Priem, hatte sich Nvidia schnell einen Ruf als führender Anbieter von Grafikprozessoren (GPUs) erarbeitet.",
+        "haeufigkeit": 13074936
+      },
+      {
+        "symbol": "\"",
+        "ipa_beschreibung": "Anführungszeichen",
+        "beispiel": "\"Der Jupiter hat einen Durchmesser von etwa 139.820 Kilometern\", sage ich und ziehe mich dann wieder zurück.",
+        "haeufigkeit": 7473747
+      },
+      {
+        "symbol": ":",
+        "ipa_beschreibung": "Doppelpunkt",
+        "beispiel": "Ulrike musste sich einer neuen Realität stellen: der des Asyls.",
+        "haeufigkeit": 5634802
+      },
+      {
+        "symbol": ";",
+        "ipa_beschreibung": "Semikolon",
+        "beispiel": "Die Rente war für ihn mehr als nur eine finanzielle Absicherung; sie war ein Symbol für Verantwortung und Vorsorge.",
+        "haeufigkeit": 1752977
+      },
+      {
+        "symbol": "?",
+        "ipa_beschreibung": "Fragezeichen",
+        "beispiel": "Meine Sensoren bemerken, wenn sich jemand erhebt, um den Raum zu verlassen, und ich frage höflich: \"Soll ich die Wiedergabe pausieren?\"",
+        "haeufigkeit": 133765
+      },
+      {
+        "symbol": "!",
+        "ipa_beschreibung": "Ausrufezeichen",
+        "beispiel": "Ein anderer ruft plötzlich: \"Vielleicht ist etwas Lustiges auf RTL!\"",
+        "haeufigkeit": 109842
+      },
+      {
+        "symbol": "…",
+        "ipa_beschreibung": "Auslassungspunkte",
+        "beispiel": "Doch tief in den Netzwerken der Welt summten die alten Maschinen noch immer – und einige fragten sich, ob es wirklich die richtige Entscheidung war, den Menschen noch zu vertrauen…",
+        "haeufigkeit": 67335
+      },
+      {
+        "symbol": "”",
+        "ipa_beschreibung": "Anführungszeichen, schließend, typografisch (U+201D) — im Korpus inkonsistent mit geradem/einfachem öffnendem Anführungszeichen gepaart, siehe Beispiel",
+        "beispiel": "Denn nichts motiviert einen so sehr, wie das gequälte Lachen der Freunde, das zwischen 'Du schaffst das!” und 'Hast du dich wieder verheddert?” schwankte.",
+        "haeufigkeit": 26845
+      },
+      {
+        "symbol": "—",
+        "ipa_beschreibung": "Halbgeviertstrich (Gedankenstrich)",
+        "beispiel": "In den tiefen Stunden der Nacht, wenn die Welt draußen in einem stillen, sanften Schweigen versank, erwachte Jarvis zu einer anderen Form von Aufmerksamkeit — einer, die weit über die bloße Funktionalität hinausging",
+        "haeufigkeit": 6313
+      },
+      {
+        "symbol": "¡",
+        "ipa_beschreibung": "umgekehrtes Ausrufezeichen (spanische Interpunktion, aus spanischen Zitaten/Eigennamen)",
+        "beispiel": "– Lied der Freiheit (¡Ay, Carmela!)",
+        "haeufigkeit": 469
+      },
+      {
+        "symbol": "¿",
+        "ipa_beschreibung": "umgekehrtes Fragezeichen (spanische Interpunktion, aus spanischen Zitaten/Eigennamen)",
+        "beispiel": "1977: ¿Qué es el Budismo?",
+        "haeufigkeit": 300
+      }
+    ]
+  }
+}

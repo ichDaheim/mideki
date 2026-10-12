@@ -1,0 +1,177 @@
+# Golden output of mideki word mode: text<TAB>phonemes.
+# Changing any expected value means the phoneme output changed: bump the MINOR
+# version and record it in CHANGELOG.md. See mideki/golden.py.
+
+# Alltagssätze
+Es war einmal eine junge Frau namens Ulrike, die in einem kleinen Dorf lebte.	ɛs vɑːɾ ˈInmˌɑːl ˌInə jˈʊŋə frˈW nˈɑməns ˈʊlrɪkə, diː ˈɪn ˌInəm klˈInən dˈɔɾf lˈeːptə.
+Die sakrale Kirche öffnet um 14:30 Uhr.	diː zakɾˈɑːlə kˈɪɾçə ˈœfnət ˈʊm fˈiːɾʦeːn ˈuːɾ dɾˈIsɪç.
+Kannst du mir bitte sagen, wie spät es ist?	kˌanst duː mˈiːɾ bˈɪtə zˈɑːɡən, viː ʃpˈɛːt ɛs ɪst?
+Wir treffen uns morgen früh am Bahnhof.	viːɾ tɾˈɛfən ˈʊns mˈɔɾɡən frˈyː ˈam bˈɑːnhoːf.
+Das Wetter ist heute leider ziemlich schlecht.	das vˈɛtɜ ɪst hˈʋtə lˈIdɜ ʦˈiːmlɪç ʃlˈɛçt.
+Ich habe keine Ahnung, wovon du sprichst!	ɪç hɑːbə kˈInə ˈɑːnʊŋ, vˈoːvoːn duː ʃpɾˈɪkst!
+Er ging um die Ecke.	ɛɾ ɡˈɪŋ ˈʊm diː ˈɛkə.
+Die Kinder spielen draußen im Garten.	diː kˈɪndɜ ʃpˈiːlən dɾˈWsən ˈɪm ɡˈaɾtən.
+Könnten Sie das bitte noch einmal wiederholen?	kˈœntən ziː das bˈɪtə nɔx ˈInmˌɑːl viːdɜhˈoːlən?
+Nach dem Essen machten wir einen langen Spaziergang.	nˈɑːx deːm ˈɛsən mˈaxtən viːɾ ˌInən lˈaŋən ʃpˈɑʦiːɾɡˌaŋ.
+
+# Affrikaten und Diphthonge
+Zeit	ʦˈIt
+Pfote	ꭧˈoːtə
+Kopf	kˈɔꭧ
+Heu	hˈʋ
+Rätsel	rˈɛːʦl̩
+Die Katze sitzt auf dem Platz.	diː kˈaʦə zˈɪʦt ˈWf deːm plˈaʦ.
+Der Apfel fiel neben den Topf.	dɛɾ ˈaꭧəl fˈiːl nˈeːbən deːn tˈɔꭧ.
+Deutsch ist eine schwierige Sprache.	dˈʋʧ ɪst ˌInə ʃvˈiːrɪɡə ʃpɾˈɑːxə.
+Ein Tschechisch sprechender Dolmetscher.	ˈIn ʧˈɛçɪʃ ʃpɾˈɛçəndɜ dˈɔlmɛʧɜ.
+Mein Haus ist dein Haus.	mˈIn hˈWs ɪst dˈIn hˈWs.
+Die Leute freuen sich über den Euro.	diː lˈʋtə frˈʋən zɪç ˈyːbɜ deːn ˈʋroː.
+Häuser, Bäume und Kräuter.	hˈʋzɜ, bˈʋmə ˈʊnt kɾˈʋtɜ.
+Die Pflanze braucht Pflege.	diː ꭧlˈanʦə bɾˈWxt ꭧlˈeːɡə.
+Matsch und Quatsch.	mˈaʧ ˈʊnt kvˈaʧ.
+
+# Umlaute, ß, ch, r
+Die Bücher liegen auf dem Tisch.	diː bˈyːçɜ lˈiːɡən ˈWf deːm tˈɪʃ.
+Größe, Füße, Straße und Maß.	ɡɾˈøːsə, fˈyːsə, ʃtɾˈɑːsə ˈʊnt mˈɑːs.
+Ich möchte acht Nächte bleiben.	ɪç mˈœçtə ˈaxt nˈɛçtə blˈIbən.
+Der Bach, das Buch, die Milch, durch.	dɛɾ bˈax, das bˈuːx, diː mˈɪlç, dˈʊɐç.
+Rauer Wind, raue See.	rˈWɜ vˈɪnt, rˈWə zˈeː.
+Der Bäcker backt Brötchen.	dɛɾ bˈɛkɜ bˈakt bɾˈøːtçən.
+Wurm, kurz, Sturm, Burg.	vˈʊɐm, kˈʊɐʦ, ʃtˈʊɐm, bˈʊɐk.
+Er hört Musik und liest Zeitung.	ɛɾ hˈœɾt muːzˈiːk ˈʊnt lˈiːst ʦˈItˌʊŋ.
+
+# Komposita
+Donaudampfschifffahrtsgesellschaft	dˌoːnWdˌamꭧʃɪfˌɑːɾʦɡeːzˈɛlʃaft
+Die Bundesverfassungsrichterin	diː bˈʊndəsfɜfˌasʊŋsrˌɪçtərˌɪn
+Kraftfahrzeughaftpflichtversicherung	kɾˌaftfɑːɾʦˌʋkhaftꭧlˌɪçtfɛɾzˈɪçərˌʊŋ
+Kindergartenplatz	kˈɪndɜɡˌaɾtənplˌaʦ
+Bahnhofsvorsteher	bˈɑːnhɔfsfˌoːɾʃteːɜ
+Schifffahrt und Teeei.	ʃˈɪfɑːɾt ˈʊnt teːˈI.
+
+# Zahlen
+0	nˈʊl
+1	ˈIns
+7	zˈiːbən
+12	ʦvˈœlf
+21	ˈInˌʊntʦvˌanʦɪç
+100	ˈInhˌʊndɜt
+101	ˈInhˌʊndɜtˌIn
+999	nˈʋnhʊndɜtnˌʋnʊndnˌʋnʦɪç
+1000	ˈIntˌWzənt
+1001	ˈIntˌWzəndˌIn
+2026	ʦvˈItWzˌɛndzɛksˌʊntʦvanʦˌɪç
+12345	ʦvˈœlftWzˌɛndɾIhˌʊndɜtfˌʏnfʊndvˌiːɾʦɪç
+1000000	ˌInə mɪljˈoːnən
+Ich habe 3 Katzen und 42 Fische.	ɪç hɑːbə dɾˈI kˈaʦən ˈʊnt ʦvˈIʊndvˌiːɾʦɪç fˈɪʃə.
+Es waren 1.234.567 Besucher.	ɛs vɑːrən ˌInə mɪljˈoːnən ʦvˈIhʊndɜtvˌiːrʊndɾˌIsɪçtˌWzəntfˌʏnfhʊndɜʦˌiːbənˌʊndzɛçʦˌɪç bəzˈuːxɜ.
+Der Wert liegt bei 3,14.	dɛɾ vˈɛɾt lˈiːkt bˈI dɾˈI kˈɔmɑː ˈIns fˈiːɾ.
+Er kostet 1.234,56 Euro.	ɛɾ kˈɔstət ˈIntˌWzəntʦvˌIhʊndɜtvˌiːrʊndɾˌIsɪç kˈɔmɑː fˈʏnf zˈɛks ˈʋroː.
+Die Quote stieg auf 12 %.	diː kvˈoːtə ʃtˈiːk ˈWf ʦvˈœlf pɾoːʦˈɛnt.
+
+# Ordinalzahlen und Jahre
+Am 3. Mai feiern wir.	ˈam dɾˈɪtən mˈI fˈIɜn viːɾ.
+Er wurde 2. im Rennen.	ɛɾ vˌʊɐdə ʦvˈItə ˈɪm rˈɛnən.
+Der 1. Platz geht an Anna.	dɛɾ ˈeːɾstə plˈaʦ ɡˈeːt ˈan ˈanɑː.
+Im Jahr 1989 fiel die Mauer.	ˈɪm jˈɑːɾ nˈʋnʦeːnhˌʊndɜtnˌʋnʊndˌaxʦɪç fˈiːl diː mˈWɜ.
+Das war 2001.	das vɑːɾ ʦvˈItWzˌɛndIn.
+Der Vertrag stammt aus dem Jahr 1100.	dɛɾ fɛɾtɾˈɑːk ʃtˈamt ˈWs deːm jˈɑːɾ ˈɛlfhʊndɜt.
+
+# Datum
+Am 3.10.2026 kostete das 12,50 € (inkl. Versand) – oder?	ˈam dɾˈɪtən ɔktˈoːbɜ ʦvˈItWzˌɛndzɛksˌʊntʦvanʦˌɪç kˈɔstətə das ʦvˈœlf ˈʋroː ˈʊnt fˈʏnfʦɪç sˈɛnt ( ɪnkluːzˈiːvə fɛɾzˈant) ˈoːdɜ?
+Der Termin ist am 24.12.2025.	dɛɾ tɛɾmˈiːn ɪst ˈam fˈiːrʊntʦvˌanʦɪçstən deːʦˈɛmbɜ ʦvˈItWzˌɛntfʏnfˌʊntʦvanʦˌɪç.
+Vom 1.1.2024 bis zum 31.12.2024.	fˈɔm ˈeːɾstən jˈanuːˌɑːɾ ʦvˈItWzˌɛndviːrˌʊntʦvanʦˌɪç bˈɪs ʦˈʊm ˈInˌʊndɾˌIsɪçstən deːʦˈɛmbɜ ʦvˈItWzˌɛndviːrˌʊntʦvanʦˌɪç.
+Geboren am 15.08.1990 in Berlin.	ɡəbˈoːrən ˈam fˈʏnfʦeːntən ˈWɡʊst nˈʋnʦeːnhˌʊndɜtnˌʋnʦɪç ˈɪn bɛɾlˈiːn.
+Seit 3.10.1990 ist Deutschland wiedervereinigt.	zIt dɾˈɪtɜ ɔktˈoːbɜ nˈʋnʦeːnhˌʊndɜtnˌʋnʦɪç ɪst dˈʋʧlant viːdɜfɛɾˈInɪkt.
+Am 3. Jan. beginnt das Semester.	ˈam dɾˈɪtən jˈanuːˌɑːɾ bəɡˈɪnt das zˈeːməstɜ.
+
+# Uhrzeit
+Der Zug fährt um 7:05 Uhr.	dɛɾ ʦˈuːk fˈɛːɾt ˈʊm zˈiːbən ˈuːɾ fˈʏnf.
+Wir treffen uns um 18:00.	viːɾ tɾˈɛfən ˈʊns ˈʊm ˈaxʦeːn ˈuːɾ.
+Um 0:30 Uhr war es dunkel.	ˈʊm nˈʊl ˈuːɾ dɾˈIsɪç vɑːɾ ɛs dˈʊnkəl.
+Es ist 23:59 Uhr.	ɛs ɪst dɾˈIʊntʦvˌanʦɪç ˈuːɾ nˈʋnʊntfˌʏnfʦɪç.
+
+# Währung
+Das kostet 5 €.	das kˈɔstət fˈʏnf ˈʋroː.
+Das kostet € 19,99.	das kˈɔstət nˈʋnʦeːn ˈʋroː ˈʊnt nˈʋnʊndnˌʋnʦɪç sˈɛnt
+Er zahlte $ 100.	ɛɾ ʦˈɑːltə ˈInhˌʊndɜt dɔlˈɑːɾ
+Das Ticket kostet 2,50 €.	das tˈɪkət kˈɔstət ʦvˈI ˈʋroː ˈʊnt fˈʏnfʦɪç sˈɛnt.
+Die Miete beträgt 1.200 € im Monat.	diː mˈiːtə bətɾˈɛːkt ˈIntˌWzəntʦvˌIhʊndɜt ˈʋroː ˈɪm mˈoːnɑːt.
+Ein Pfund kostet £ 3.	ˈIn ꭧˈʊnt kˈɔstət dɾˈI ꭧˈʊnt
+
+# Telefonnummern
+Ruf mich unter 030 123456 an.	rˈuːf mɪç ˈʊntɜ nˈʊl dɾˈI nˈʊl ˈIns ʦvˈI dɾˈI fˈiːɾ fˈʏnf zˈɛks ˈan.
+Tel. 0171-1234567	tˌeːleːfˈoːn ˈInhˌʊndɜtˌInʊndzˌiːpʦɪɡˌInə mɪljˈoːnən ʦvˈIhʊndɜtvˌiːrʊndɾˌIsɪçtˌWzəntfˌʏnfhʊndɜʦˌiːbənˌʊndzɛçʦˌɪç
+Die Durchwahl ist 089 12 34 56.	diː dʊɐçvˈɑːl ɪst nˈʊl ˈaxt nˈʋn ˈIns ʦvˈI dɾˈI fˈiːɾ zˈɛksˌʊntfˌʏnfʦɪç.
+
+# Abkürzungen
+Dr. Müller und Prof. Schmidt.	dˈɔktoːɾ mˈʏlɜ ˈʊnt pɾoːfˈɛsoːɾ ʃmˈɪt.
+Hr. Meier wohnt in der Hauptstr. 5.	hˈɛɾ mˈIɜ vˈoːnt ˈɪn dɛɾ hˈWpʦtɾ. fˈʏnf.
+Fr. Weber arbeitet bei der Siemens AG.	frˈW vˈeːbɜ ˈaɾbItət bˈI dɛɾ zˈiːməns ˌaktiːŋeːzˈɛlʃaft.
+Die Firma ist eine GmbH.	diː fˈɪɾmɑː ɪst ˌInə ɡəzˈɛlʃaft mˈɪt bəʃrˈɛŋktɜ hˈaftʊŋ.
+Er ist Dipl.-Ing. bei der Bahn.	ɛɾ ɪst dɪplˈoːmˌɪnʤənjˈøːɾ bˈI dɛɾ bˈɑːn.
+Wir brauchen z. B. Mehl, Eier usw.	viːɾ bɾˈWxən ʦˈʊm bˈIʃpiːl mˈeːl, ˈIɜ ˈʊnt zˈoː vˈItɜ
+Das ist d. h. wichtig, vgl. Kapitel 3.	das ɪst das hˈIst vˈɪçtɪç, fɛɾɡlˈIçə kˈɑpiːtəl dɾˈI.
+Siehe Nr. 7 und Abs. 2.	zˈiːə nˈʊmɜ zˈiːbən ˈʊnt ˈapzˌaʦ ʦvˈI.
+Gem. § 5 und §§ 12 ff.	ɡəmˈɛːs pˌaraɡɾˈɑːf fˈʏnf ˈʊnt pˌaraɡɾˈɑːfən ʦvˈœlf ˌɛfˈɛf.
+Es dauert ca. 3 Stunden, ggf. länger.	ɛs dˈWɜt kˈɪɾkɑː dɾˈI ʃtˈʊndən, ɡəɡˈeːbənˌɛnfals lˈɛŋɜ.
+Preis inkl. Steuer, exkl. Versand.	pɾˈIs ɪnkluːzˈiːvə ʃtˈʋɜ, ˌɛkskluːzˈiːvə fɛɾzˈant.
+In der Regel, i. d. R. also.	ˈɪn dɛɾ rˈeːɡəl, ˈɪn dɛɾ rˈeːɡəl ˈalzoː.
+
+# software und hardware
+Die Steuerungssoftware wurde aktualisiert.	diː ʃtˈʋərˌʊŋs sˈɒftweə vˌʊɐdə ˌaktuːˌɑliːzˈiːɾt.
+Neue Grafikhardware ist teuer.	nˈʋə ɡɾˈɑfɪk hˈɑːdweə ɪst tˈʋɜ.
+Software und Hardware.	sˈɒftweə ˈʊnt hˈɑːdweə.
+Eine Softwarelösung für alle.	ˌInə zˈɔftvarˌɛløːzˌʊŋ fˈyːɾ ˈalə.
+
+# Overrides: Marken und Tech
+Ich nutze PyTorch auf einer GeForce mit CUDA.	ɪç nˈʊʦə pˈItɔːɾʧ ˈWf ˌInɜ ʤiːfˈɔɐs mˈɪt kˈuːda.
+Claude und Gemini sind Sprachmodelle.	klˈoːt ˈʊnt ʤˈɛmɪnI zɪnt ʃpɾˌɑːxmoːdˈɛlə.
+Der Code liegt auf GitHub.	dɛɾ kˈoːt lˈiːkt ˈWf ɡˈɪthab.
+Wir trainieren StyleTTS2 und VITS mit Kokoro.	viːɾ tɾɛnˈiːrən stˈIl tiːtiːˈɛs ʦvI ˈʊnt vˈɪʦ mˈɪt kˈoːkoːroː.
+Qwen läuft mit Ollama auf dem Laptop.	kvˈɛn lˈʋft mˈɪt olˈaːma ˈWf deːm lˈæptɔp.
+Ich programmiere in TypeScript mit VSCode.	ɪç pɾoːɡɾamˈiːrə ˈɪn tˈIpskɾɪpt mˈɪt viːˈɛs koːt.
+Der Checkpoint wurde per CLI geladen.	dɛɾ ʧˈɛkpɔɪnt vˌʊɐdə pˈɛɾ ʦeːɛlˈI ɡəlˈɑːdən.
+Die API liefert JSON über HTTPS.	diː eːpiːˈI lˈiːfɜt ʤˈeːsən ˈyːbɜ ˌeːʧtˌiːtˈiːpˌiːˈɛs.
+Das Feedback zum Backend war gut.	das fˈiːtbˌæk ʦˈʊm bˈækˌɛnt vɑːɾ ɡˈuːt.
+Mein Smartphone von Apple.	mˈIn smˈaɾtfoːn fˈɔn ˈɛpəl.
+Ich schaue Disney+ und Prime Video.	ɪç ʃˈWə dˈɪzni plˈʌs ˈʊnt pɾˈIm vˈɪdɪoː.
+Er trägt eine Jacke von The North Face.	ɛɾ tɾˈɛːkt ˌInə jˈakə fˈɔn ðə nˈɔːθ fˈeːs.
+Das Team macht Design Thinking.	das tˈiːm mˈaxt dɪzˈIn θˈɪŋkɪŋ.
+Der Shutdown kam nach dem Update.	dɛɾ ʃˈʌtdˌWn kˌɑːm nˈɑːx deːm ˈʌpdeːt.
+Ein Thread über Fine-Tuning.	ˈIn θrˈɛt ˈyːbɜ fˈIn tˈuːnɪŋ.
+Das Startup arbeitet mit KI und Machine Learning.	das stˈɑːtˌʌp ˈaɾbItət mˈɪt kˌɑːˈiː ˈʊnt maxˈiːnə lɜːnɪŋ.
+Louis Vuitton und Moët & Chandon.	luːˈiː vyitˈɔ ˈʊnt mɔˈɛ ʃɑdˈɔ.
+
+# Overrides: Fremdwörter und de_native
+Die Garage steht neben der Oase.	diː ɡarˈɑːʒə ʃtˈeːt nˈeːbən dɛɾ oˈaːzə.
+Eine Reportage über Sabotage.	ˌInə rɛpɔɾtˈɑːʒə ˈyːbɜ zaboːtˈɑːʒə.
+Die Prothese und die Synthese.	diː pɾotˈeːzə ˈʊnt diː zyntˈeːzə.
+Er fuhr nach Kiew in die USA.	ɛɾ fˈuːɾ nˈɑːx kˈiːɛf ˈɪn diː ˌuːɛsˈaː.
+Die Teile liegen aneinander.	diː tˈIlə lˈiːɡən ˌanInˈandɜ.
+Wir arbeiten miteinander und nebeneinander.	viːɾ ˈaɾbItən mˈɪtˌInandɜ ˈʊnt nˌeːbənInˈandɜ.
+
+# Französische Lehnwörter (Denasalierung)
+Das ist eine Chance.	das ɪst ˌInə ʃˈɑsə.
+Wir essen ein Croissant im Restaurant.	viːɾ ˈɛsən ˈIn kɾˌoːɪsˈant ˈɪm rˌɛstoːrˈɑ.
+Das Ensemble spielt im Salon.	das ɑsˈɑbəl ʃpˈiːlt ˈɪm zˈɑloːn.
+Mit viel Elan und Engagement.	mˈɪt fˈiːl eːlˈɑːn ˈʊnt aŋɡaʒəmˈaŋ.
+
+# Englische Wörter ohne Override
+Der Synthesizer klingt gut.	dɛɾ sˈɪnθəsˌIzə klˈɪŋt ɡˈuːt.
+Das Meeting wurde gecancelt.	das mˈeːtɪŋ vˌʊɐdə ɡəkˈankəlt.
+Sie ist ein echter Fan.	ziː ɪst ˈIn ˈɛçtɜ fˈɑːn.
+
+# Eigennamen
+Angela Merkel und Olaf Scholz.	ˈanɡəlˌɑː mˈɛɾkəl ˈʊnt ˈoːlɑːf ʃˈɔlʦ.
+München, Köln und Düsseldorf.	mˈʏnçən, kˈœln ˈʊnt dˈʏsəldˌɔɾf.
+Wolfgang Amadeus Mozart.	vˈɔlfɡaŋ ˈɑmadˌʋs mˈoːʦaɾt.
+
+# Satzzeichen und Sonderfälle
+Hallo! Wie geht's?	hˈaloː! viː ɡˈeːʦ?
+Ja, nein; vielleicht: doch.	jˈɑː, nˈIn; fɪlˈIçt: dˈɔx.
+„Das ist ein Zitat“, sagte sie.	" das ɪst ˈIn ʦiːtˈɑːt ", zˈɑːɡtə ziː.
+Er sagte – ohne Zögern – ja.	ɛɾ zˈɑːɡtə ˈoːnə ʦˈøːɡɜn jˈɑː.
+Warte... was?	vˈaɾtə... vˈas?
+(In Klammern) steht das hier.	( ˈɪn klˈamɜn) ʃtˈeːt das hˈiːɾ.
+E-Mail-Adresse und Baden-Württemberg.	ˈeːmˈeɪladɾˈɛsə ˈʊnt bˈɑːdənvˈʏɾtəmbˌɛɾk.
+DAS IST GROSS GESCHRIEBEN.	das ɪst ɡɾˈɔs ɡəʃrˈiːbən.

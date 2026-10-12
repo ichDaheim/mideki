@@ -5,3 +5,6 @@ __pycache__/
 .pytest_cache/
 build/
 dist/
+.idea/
+CLAUDE.md
+/KNOWN_ISSUES.md

@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mideki"
+version = "1.0.0"
+description = "German grapheme-to-phoneme conversion with a canonical, versioned phoneme symbol set"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10,<3.14"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Natural Language :: German",
+    "Topic :: Multimedia :: Sound/Audio :: Speech",
+]
+dependencies = [
+    # Pinned on purpose: espeakng-loader 0.2.4 bundles espeak-ng 1.52.0.
+    # Other versions change stress and tie behaviour, see NOTICE.md.
+    "phonemizer-fork==3.3.2",
+    "espeakng-loader==0.2.4",
+    "regex>=2024.1",
+]
+
+[project.scripts]
+mideki-check-overrides = "mideki.override_checks:main"
+mideki-check-golden = "mideki.golden:main"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mideki"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
