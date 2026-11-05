@@ -124,11 +124,11 @@ Software und Hardware.	sˈɒftweə ˈʊnt hˈɑːdweə.
 Eine Softwarelösung für alle.	ˌInə zˈɔftvarˌɛløːzˌʊŋ fˈyːɾ ˈalə.
 
 # Overrides: Marken und Tech
-Ich nutze PyTorch auf einer GeForce mit CUDA.	ɪç nˈʊʦə pˈItɔːɾʧ ˈWf ˌInɜ ʤiːfˈɔɐs mˈɪt kˈuːda.
+Ich nutze PyTorch auf einer GeForce mit CUDA.	ɪç nˈʊʦə pˈItɔːɾʧ ˈWf ˌInɜ ʤiːfˈɔɐs mˈɪt kˈuːdɑː.
 Claude und Gemini sind Sprachmodelle.	klˈoːt ˈʊnt ʤˈɛmɪnI zɪnt ʃpɾˌɑːxmoːdˈɛlə.
 Der Code liegt auf GitHub.	dɛɾ kˈoːt lˈiːkt ˈWf ɡˈɪthab.
 Wir trainieren StyleTTS2 und VITS mit Kokoro.	viːɾ tɾɛnˈiːrən stˈIl tiːtiːˈɛs ʦvI ˈʊnt vˈɪʦ mˈɪt kˈoːkoːroː.
-Qwen läuft mit Ollama auf dem Laptop.	kvˈɛn lˈʋft mˈɪt olˈaːma ˈWf deːm lˈæptɔp.
+Qwen läuft mit Ollama auf dem Laptop.	kvˈɛn lˈʋft mˈɪt olˈaːmɑː ˈWf deːm lˈæptɔp.
 Ich programmiere in TypeScript mit VSCode.	ɪç pɾoːɡɾamˈiːrə ˈɪn tˈIpskɾɪpt mˈɪt viːˈɛs koːt.
 Der Checkpoint wurde per CLI geladen.	dɛɾ ʧˈɛkpɔɪnt vˌʊɐdə pˈɛɾ ʦeːɛlˈI ɡəlˈɑːdən.
 Die API liefert JSON über HTTPS.	diː eːpiːˈI lˈiːfɜt ʤˈeːsən ˈyːbɜ ˌeːʧtˌiːtˈiːpˌiːˈɛs.
@@ -139,7 +139,7 @@ Er trägt eine Jacke von The North Face.	ɛɾ tɾˈɛːkt ˌInə jˈakə fˈɔn 
 Das Team macht Design Thinking.	das tˈiːm mˈaxt dɪzˈIn θˈɪŋkɪŋ.
 Der Shutdown kam nach dem Update.	dɛɾ ʃˈʌtdˌWn kˌɑːm nˈɑːx deːm ˈʌpdeːt.
 Ein Thread über Fine-Tuning.	ˈIn θrˈɛt ˈyːbɜ fˈIn tˈuːnɪŋ.
-Das Startup arbeitet mit KI und Machine Learning.	das stˈɑːtˌʌp ˈaɾbItət mˈɪt kˌɑːˈiː ˈʊnt maxˈiːnə lɜːnɪŋ.
+Das Startup arbeitet mit KI und Machine Learning.	das stˈɑːtˌʌp ˈaɾbItət mˈɪt kˌɑːˈiː ˈʊnt maxˈiːnə lˈœɾnɪŋ.
 Louis Vuitton und Moët & Chandon.	luːˈiː vyitˈɔ ˈʊnt mɔˈɛ ʃɑdˈɔ.
 
 # Overrides: Fremdwörter und de_native
@@ -151,7 +151,7 @@ Die Teile liegen aneinander.	diː tˈIlə lˈiːɡən ˌanInˈandɜ.
 Wir arbeiten miteinander und nebeneinander.	viːɾ ˈaɾbItən mˈɪtˌInandɜ ˈʊnt nˌeːbənInˈandɜ.
 
 # Französische Lehnwörter (Denasalierung)
-Das ist eine Chance.	das ɪst ˌInə ʃˈɑsə.
+Das ist eine Chance.	das ɪst ˌInə ʃˈaŋsə.
 Wir essen ein Croissant im Restaurant.	viːɾ ˈɛsən ˈIn kɾˌoːɪsˈant ˈɪm rˌɛstoːrˈɑ.
 Das Ensemble spielt im Salon.	das ɑsˈɑbəl ʃpˈiːlt ˈɪm zˈɑloːn.
 Mit viel Elan und Engagement.	mˈɪt fˈiːl eːlˈɑːn ˈʊnt aŋɡaʒəmˈaŋ.
@@ -159,7 +159,7 @@ Mit viel Elan und Engagement.	mˈɪt fˈiːl eːlˈɑːn ˈʊnt aŋɡaʒəmˈaŋ
 # Englische Wörter ohne Override
 Der Synthesizer klingt gut.	dɛɾ sˈɪnθəsˌIzə klˈɪŋt ɡˈuːt.
 Das Meeting wurde gecancelt.	das mˈeːtɪŋ vˌʊɐdə ɡəkˈankəlt.
-Sie ist ein echter Fan.	ziː ɪst ˈIn ˈɛçtɜ fˈɑːn.
+Sie ist ein echter Fan.	ziː ɪst ˈIn ˈɛçtɜ fˈæn.
 
 # Eigennamen
 Angela Merkel und Olaf Scholz.	ˈanɡəlˌɑː mˈɛɾkəl ˈʊnt ˈoːlɑːf ʃˈɔlʦ.
