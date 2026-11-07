@@ -41,6 +41,11 @@ from kikiri-tts (PR #28).
   `1`). Section priority on lookup collisions:
   `brand > en > de_foreign > de_native`.
 - Override lookup is public API.
+- `normalize_for_lookup` keeps the German umlauts ä/ö/ü (2026-11-07). Upstream
+  stripped them like any other accent, so umlaut keys also matched their
+  umlaut-less counterparts ("Gasförderung" overrode "Gasforderung",
+  "Singvögel" would have overridden "Singvogel"). Other accents (é, ë, …) are
+  still stripped.
 - All override values are written in the canonical compressed symbol set.
   Overrides bypass espeak-ng and its postprocessing, so values with
   uncompressed diphthongs/affricates (`aɪ`, `tʃ`, …) or nasal tildes were

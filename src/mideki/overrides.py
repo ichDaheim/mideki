@@ -7,7 +7,7 @@ espeak-ng and therefore must already use the compressed canonical symbols;
 `override_checks.check_overrides` enforces that.
 
 Lookup keys are matched after `normalize_for_lookup()`: casefold, NFKD, strip
-combining marks, fold "+" -> "plus", "&" -> "and", "@" -> "at", keep
+combining marks except on German umlauts (ä/ö/ü stay), fold "+" -> "plus", "&" -> "and", "@" -> "at", keep
 alphanumerics. Ported from the semidark/misaki fork (Apache License 2.0).
 """
 
@@ -21,6 +21,9 @@ SECTIONS = ('brand', 'en', 'de_foreign', 'de_native')
 MAX_OVERRIDE_TOKENS = 4
 
 _LOOKUP_REPLACEMENTS = {'+': 'plus', '&': 'and', '@': 'at'}
+# Private-use stand-ins so NFKD does not decompose ä/ö/ü into base letter + diaeresis.
+_UMLAUT_SHIELD = {'ä': '\ue000', 'ö': '\ue001', 'ü': '\ue002'}
+_UMLAUT_UNSHIELD = {v: k for k, v in _UMLAUT_SHIELD.items()}
 
 # Word-ish tokens for override matching. Captures internal "-"/"'" (espeak-ng,
 # zero-shot) and a trailing "+" (Disney+) so single tokens with joiners match
@@ -32,10 +35,19 @@ OVERRIDE_WORD_RE = re.compile(
 
 
 def normalize_for_lookup(text: str) -> str:
-    '''Collapse a word to its override lookup key ("Prime Video" -> "primevideo").'''
-    text = unicodedata.normalize('NFKD', text.casefold())
+    '''Collapse a word to its override lookup key ("Prime Video" -> "primevideo").
+
+    German umlauts are kept: "Singvogel" and "Singvögel" are different words.
+    '''
+    text = unicodedata.normalize('NFC', text.casefold())
+    # Shield umlauts from the NFKD accent stripping below.
+    text = ''.join(_UMLAUT_SHIELD.get(char, char) for char in text)
+    text = unicodedata.normalize('NFKD', text)
     parts = []
     for char in text:
+        if char in _UMLAUT_UNSHIELD:
+            parts.append(_UMLAUT_UNSHIELD[char])
+            continue
         if unicodedata.category(char) == 'Mn':
             continue
         replacement = _LOOKUP_REPLACEMENTS.get(char)

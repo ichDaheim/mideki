@@ -13,6 +13,25 @@ Jeder Eintrag nennt `output_fingerprint()` und `token_map_sha256()` der Version;
 `tests/test_versioning.py` prüft, dass der Eintrag der aktuellen Version den aktuellen
 Fingerabdruck enthält.
 
+## 1.3.0 – 2026-11-07
+
+- output_fingerprint: `96679055de8b4a9df52057f5f1ee44d97cf8ad4151a9e8c47eaa6264bb08ac45`
+- token_map_sha256: `3af12687579c50956ab35be02ab38da1b8d1f1713362266dc76c8e1729e95724`
+
+63 neue Overrides, keine geändert oder entfernt. Golden-Datei unverändert.
+
+- Override-Suche behält Umlaute: `normalize_for_lookup` entfernt ä/ö/ü nicht mehr (andere
+  Akzente weiterhin). Bisher griffen Umlaut-Schlüssel auch für die Form ohne Umlaut, z. B.
+  wurde „Gasforderung“ als „Gasförderung“ gesprochen; „Singvögel“ hätte „Singvogel“
+  überschrieben. Eingaben mit weggelassenen Umlauten („Mullcontainer“) treffen keinen
+  Override mehr und gehen an espeak-ng.
+- `en`: Ocean Steamship(s).
+- `de_foreign`: Vagabund(en) (Betonung auf der letzten Silbe).
+- `de_native`: hinweg- mit Formen von blicken, sehen, gehen, täuschen, setzen, kommen,
+  helfen, trösten, fegen (Betonung `hɪnvˈɛk…` statt `hˈɪnvɛɡ…`); geatmet (langes `ɑː`) mit ein-/aus-/
+  auf-/durch-; Schmalspurbahn(en); Ortschaft(en); Laubbaum/-bäume; Paß; Pfadbiegung(en);
+  Singvögel(n) (`f` statt `v`).
+
 ## 1.2.0 – 2026-11-05
 
 - output_fingerprint: `055b8a2860f7976181dce6650632111e0eaf1ff70d11d306f79140148dca21de`

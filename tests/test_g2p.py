@@ -4,12 +4,14 @@ from mideki import (
     G2P,
     check_overrides,
     normalize_text_de,
+    override_for,
     render,
     split_symbols,
     symbols,
     token_map,
     unknown_symbols,
 )
+from mideki.overrides import normalize_for_lookup
 
 
 @pytest.fixture(scope='module')
@@ -63,6 +65,14 @@ def test_word_mode_uses_citation_stress(g2p):
 
 def test_overrides_are_applied(g2p):
     assert g2p('PyTorch')[0] == 'pˈItɔːɾʧ'  # ɹ replaced by ɾ (ɹ: 45 times in the training data)
+
+
+def test_override_lookup_keeps_umlauts():
+    assert normalize_for_lookup('Gasförderung') == 'gasförderung'
+    assert normalize_for_lookup('Gasfo\u0308rderung') == 'gasförderung'  # decomposed input
+    assert normalize_for_lookup('Café') == 'cafe'  # other accents are still stripped
+    assert override_for('Gasförderung') is not None
+    assert override_for('Gasforderung') is None
 
 
 def test_word_cache_is_filled_and_reused():
