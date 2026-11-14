@@ -33,6 +33,17 @@ from kikiri-tts (PR #28).
   pair, not just the suffix. Splitting costs the compound's single-word
   stress. Not handled: "software"/"hardware" in the middle of a compound
   ("Bürosoftwarepaket").
+- 2026-11-07: Data-size abbreviations KByte/kByte, MByte, GByte, TByte, PByte
+  (optionally with plural "s") are expanded to Kilobyte, Megabyte, Gigabyte,
+  Terabyte, Petabyte. espeak-ng otherwise spells out the prefix letter
+  ("GByte" -> `ɡˈeː bˈIt`). The expanded words have overrides because
+  espeak-ng reads "-byte" in them as `bˌyːtə`. Likewise Hz, kHz/KHz,
+  MHz/Mhz, GHz/Ghz, THz become Hertz, Kilohertz, ... (overrides needed too:
+  espeak-ng drops the h, "Gigahertz" -> `ɡˈiːɡɑːɜʦ`); "mHz" is left alone
+  (millihertz). Hyphens attached to a byte or hertz unit become spaces and a preceding "1" becomes "ein" ("1-TByte-SSD" ->
+  "ein Terabyte SSD"), since a hyphenated compound reaches espeak-ng as one
+  token and bypasses the unit's override. Costs the compound's single-word
+  stress, as with the software/hardware split.
 
 ### Overrides (`overrides.py`, `data/de_overrides.json`)
 

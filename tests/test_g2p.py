@@ -87,6 +87,12 @@ def test_word_cache_is_filled_and_reused():
 def test_normalization():
     assert normalize_text_de('z. B. 3 Äpfel') == 'zum Beispiel drei Äpfel'
     assert normalize_text_de('um 14:30 Uhr') == 'um vierzehn Uhr dreißig'
+    assert normalize_text_de('GByte, TBytes, KByte') == 'Gigabyte, Terabytes, Kilobyte'
+    assert normalize_text_de('1-TByte-SSD') == 'ein Terabyte SSD'
+    assert normalize_text_de('16-GByte-RAM, 1 GByte') == 'sechzehn Gigabyte RAM, ein Gigabyte'
+    assert normalize_text_de('Multi-Terabyte-Speicher') == 'Multi Terabyte Speicher'
+    assert normalize_text_de('50 Hz, 100 Mhz, kHz, GHz') == 'fünfzig Hertz, einhundert Megahertz, Kilohertz, Gigahertz'
+    assert normalize_text_de('1-GHz-Prozessor') == 'ein Gigahertz Prozessor'
 
 
 def test_render_attaches_trailing_punctuation():

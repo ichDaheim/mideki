@@ -235,6 +235,28 @@ def normalize_text_de(text):
         ("Dez", "Dezember"),
     ]:
         text = re.sub(rf"\b{abbr}\.(?=\s)", full, text)
+    # Data sizes: KByte/MByte/GByte/TByte/PByte(s) -> Kilobyte(s) etc.
+    _byte_prefixes = {"K": "Kilo", "k": "Kilo", "M": "Mega", "G": "Giga", "T": "Tera", "P": "Peta"}
+    text = re.sub(
+        r"\b([KkMGTP])Byte(s?)\b",
+        lambda m: _byte_prefixes[m.group(1)] + "byte" + m.group(2),
+        text,
+    )
+    # Frequencies: Hz/kHz/MHz/GHz/THz -> Hertz/Kilohertz etc. (also "Mhz", "Ghz").
+    _hertz_prefixes = {"": "", "k": "Kilo", "K": "Kilo", "M": "Mega", "G": "Giga", "T": "Tera"}
+    text = re.sub(
+        r"\b(?:Hz|([kKMGT])[Hh]z)\b",
+        lambda m: _hertz_prefixes[m.group(1) or ""] + ("hertz" if m.group(1) else "Hertz"),
+        text,
+    )
+    # Hyphenated compounds around a unit ("1-Terabyte-SSD") go to espeak-ng as
+    # one token, bypassing the unit's override (espeak-ng reads "-byte" as
+    # `bˌyːtə`). Split them into words, and say "ein" rather than "eins" for a
+    # quantity of 1 ("ein Terabyte").
+    _unit = r"(?:(?:Kilo|Mega|Giga|Tera|Peta)bytes?|(?:Kilo|Mega|Giga|Tera)hertz|Hertz)\b"
+    text = re.sub(rf"(?<![\d.,])\b1(?:\s*-\s*|\s+)(?={_unit})", "ein ", text)
+    text = re.sub(rf"(?<=\w)-(?={_unit})", " ", text)
+    text = re.sub(rf"\b({_unit})-(?=\w)", r"\1 ", text)
     text = re.sub(r"§§\s*(?=\d)", "Paragrafen ", text)
     text = re.sub(r"§\s*(?=\d)", "Paragraf ", text)
 

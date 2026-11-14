@@ -13,6 +13,66 @@ Jeder Eintrag nennt `output_fingerprint()` und `token_map_sha256()` der Version;
 `tests/test_versioning.py` prüft, dass der Eintrag der aktuellen Version den aktuellen
 Fingerabdruck enthält.
 
+## 1.4.0 – 2026-11-14
+
+- output_fingerprint: `cd4a3502bf5abe304bcd43c50a707c8d9b118a334581f10a03b27ef76d1ca7b7`
+- token_map_sha256: `3af12687579c50956ab35be02ab38da1b8d1f1713362266dc76c8e1729e95724`
+
+436 neue Overrides, einer geändert (`ki`), keine entfernt. Ein Golden-Satz ändert sich
+(„… mit KI und Machine Learning.“: `kˌɑːˈiː` → `kˈɑː ˈiː`).
+
+- Normalisierung: KByte/kByte, MByte, GByte, TByte, PByte (auch mit Plural-s) werden zu
+  Kilobyte, Megabyte, Gigabyte, Terabyte, Petabyte ausgeschrieben. Bisher buchstabierte
+  espeak-ng das Präfix („GByte“ → `ɡˈeː bˈIt`).
+- Normalisierung: Hz, kHz/KHz, MHz/Mhz, GHz/Ghz, THz werden zu Hertz, Kilohertz,
+  Megahertz, Gigahertz, Terahertz ausgeschrieben (bisher buchstabiert: „GHz“ →
+  `ɡˌeːhˌɑːʦˈɛt`). „mHz“ (Millihertz) bleibt unverändert.
+- Normalisierung: Bindestriche an einer Byte- oder Hertz-Einheit werden zu Leerzeichen, und
+  „1“ davor wird „ein“: „1-TByte-SSD“ → „ein Terabyte SSD“, „1 GHz“ → „ein Gigahertz“
+  (bisher ging das Kompositum als Ganzes an espeak-ng, am Override vorbei:
+  `…tˈeːrabˌyːtə…`).
+- `brand`: ChatGPT(s), GPT(s), GPT-drei/-vier/-fünf, GPT-4o, GPT-4o-mini (englisch
+  buchstabiert, `ʤˌiːpiːtˈiː`); Microsoft(s); Touch-MacBook.
+- `en`: Prompt(s), Prompting, Prompt-Engineering(s), Agents, AI-Agents, agentic, Tool Use;
+  Performance, Core(s), Neural Engine(s), Cloud(s); High School(s)/Highschool(s), CEO(s);
+  Area Control Centre/Center(s), Federal Aviation Administration, Ground Stop(s);
+  Elon Musk(s), Musk(s).
+- `de_foreign`:
+  - `ki` jetzt `kˈɑː ˈiː` (zwei betonte Buchstaben) statt `kˌɑːˈiː`.
+  - KI-Komposita mit Leerzeichen nach `ˈiː`: KI-Modell(e/s/en), KI-Unterstützung(en),
+    KI-generiert(e/en/er/es/em), KI-Tool(s), KI-Agents, KI-Workflow(s), KI-Aufgabe(n).
+    Ohne Override geht ein Bindestrich-Wort als Ganzes an espeak-ng (z. B. „KI-Hersteller“
+    → `kˌɑːˈiːhˈɛɾʃtɛlɜ`).
+  - Kilo-/Mega-/Giga-/Tera-/Petabyte(s) mit `bˌIt`/`bˌIʦ` (espeak-ng las `bˌyːtə`), dazu
+    die Kurzformen kbyte, mbyte, gbyte, tbyte, pbyte(s) für Schreibweisen, die die
+    Normalisierung nicht erfasst („Gbyte“, „GBYTE“).
+  - Kilo-/Mega-/Giga-/Terahertz mit `hˌɛɾʦ` (espeak-ng verschluckte das h:
+    „Gigahertz“ → `ɡˈiːɡɑːɜʦ`).
+  - Prompting-Erfahrung(en), Prompt-Vorlage(n).
+  - Performancekern(e/s/en), AI-Einheit(en), Supercore(s), Agentin(nen), Webseite(n),
+    Medienbericht(e/s/en), Alice(s), FAA, CNN.
+  - 160 Komposita auf -problem (je mit -e/-en/-s), z. B. Kommunikations-, Sicherheits-,
+    Gesundheits-, Verbindungs-, Qualitäts-, Liquiditäts-, Wirtschafts-, Luxus-, Rechtsproblem
+    (Hauptbetonung auf dem Bestimmungswort, `pɾoblˌeːm` mit Nebenbetonung; espeak-ng:
+    „Sicherheitsproblem“ → `zˈɪçɜhˌIʧpɾɔbləm`).
+  - Honorar(e/s/en), Honorarkürzung(en).
+  - Chef-Wörter mit `ʃˈɛf` (espeak-ng: „Chefin“ → `çˈeːfɪn`): Chefin(nen),
+    Fraktionschef(s), Ex-/Vize-Chefin(nen), 23 weitere Komposita auf -chefin(nen) (Partei-, Konzern-, Regierungs-, Bundesbank-, Polizei-,
+    Geheimdienstchefin …), dazu Chefarzt/-ärztin, Chefkoch/-köchin, Chefredakteur(in),
+    Chefredaktion, Chefetage(n), Chefsache, Chefsessel, Chefposten, Chefökonom(in),
+    Chefermittler(in), Chefankläger(in), Chefdiplomat(in), Chefstratege/-strategin,
+    Chefvolkswirt(in), Chefentwickler(in), Chefideologe, Chefdirigent(in), Chefsekretärin,
+    Chefunterhändler(in) samt Flexionsformen.
+- `de_native`:
+  - bergauf, bergab (zwei betonte Teile).
+  - Basismodell(e/s/en).
+  - Lotse/Lotsin, Fluglotse/Fluglotsin samt Pluralen (espeak-ng: „Lotse“ → `lˈɔtzə`).
+  - Sprechstunde(n), Privatsprechstunde(n).
+  - HNO (`hˈɑː ˈɛn ˈoː`) und HNO-Komposita: HNO-Arzt/-Ärztin/-Ärzte, HNO-Praxis/-Praxen,
+    HNO-Arztpraxis, HNO-Klinik, HNO-Heilkunde, HNO-Bereich.
+  - Praxen (espeak-ng: `pɾˈɑːksən`) sowie Arzt-, Hausarzt-, Zahnarzt-, Facharzt-,
+    Tierarzt-, Landarztpraxen.
+
 ## 1.3.0 – 2026-11-07
 
 - output_fingerprint: `96679055de8b4a9df52057f5f1ee44d97cf8ad4151a9e8c47eaa6264bb08ac45`
