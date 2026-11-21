@@ -315,6 +315,8 @@ def normalize_text_de(text):
     text = re.sub(r"\b(\d{1,2})\.(\d{1,2})\.(\d{4})\b", _date_repl, text)
 
     # 7. Ordinals in common article contexts and general mid-sentence ordinals.
+    # A day written without a space before the month ("1.Januar") gets one, so it is read as an ordinal.
+    text = re.sub(rf"(?<![\d.,])\b(\d{{1,2}})\.(?=(?:{'|'.join(_MONTHS[1:])})\b)", r"\1. ", text)
     text = re.sub(
         r"\b([Aa]m)\s+(\d+)\.\s",
         lambda m: m.group(1) + " " + _ordinal_stem_de(int(m.group(2))) + "en ",

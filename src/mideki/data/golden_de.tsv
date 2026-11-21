@@ -70,6 +70,7 @@ Die Quote stieg auf 12 %.	diː kvˈoːtə ʃtˈiːk ˈWf ʦvˈœlf pɾoːʦˈɛn
 
 # Ordinalzahlen und Jahre
 Am 3. Mai feiern wir.	ˈam dɾˈɪtən mˈI fˈIɜn viːɾ.
+Am 3.Mai feiern wir.	ˈam dɾˈɪtən mˈI fˈIɜn viːɾ.
 Er wurde 2. im Rennen.	ɛɾ vˌʊɐdə ʦvˈItə ˈɪm rˈɛnən.
 Der 1. Platz geht an Anna.	dɛɾ ˈeːɾstə plˈaʦ ɡˈeːt ˈan ˈanɑː.
 Im Jahr 1989 fiel die Mauer.	ˈɪm jˈɑːɾ nˈʋnʦeːnhˌʊndɜtnˌʋnʊndˌaxʦɪç fˈiːl diː mˈWɜ.
@@ -121,14 +122,14 @@ In der Regel, i. d. R. also.	ˈɪn dɛɾ rˈeːɡəl, ˈɪn dɛɾ rˈeːɡəl ˈ
 Die Steuerungssoftware wurde aktualisiert.	diː ʃtˈʋərˌʊŋs sˈɒftweə vˌʊɐdə ˌaktuːˌɑliːzˈiːɾt.
 Neue Grafikhardware ist teuer.	nˈʋə ɡɾˈɑfɪk hˈɑːdweə ɪst tˈʋɜ.
 Software und Hardware.	sˈɒftweə ˈʊnt hˈɑːdweə.
-Eine Softwarelösung für alle.	ˌInə zˈɔftvarˌɛløːzˌʊŋ fˈyːɾ ˈalə.
+Eine Softwarelösung für alle.	ˌInə sˈɔftvɛːɐlˌøːzʊŋ fˈyːɾ ˈalə.
 
 # Overrides: Marken und Tech
 Ich nutze PyTorch auf einer GeForce mit CUDA.	ɪç nˈʊʦə pˈItɔːɾʧ ˈWf ˌInɜ ʤiːfˈɔɐs mˈɪt kˈuːdɑː.
 Claude und Gemini sind Sprachmodelle.	klˈoːt ˈʊnt ʤˈɛmɪnI zɪnt ʃpɾˌɑːxmoːdˈɛlə.
 Der Code liegt auf GitHub.	dɛɾ kˈoːt lˈiːkt ˈWf ɡˈɪthab.
 Wir trainieren StyleTTS2 und VITS mit Kokoro.	viːɾ tɾɛnˈiːrən stˈIl tiːtiːˈɛs ʦvI ˈʊnt vˈɪʦ mˈɪt kˈoːkoːroː.
-Qwen läuft mit Ollama auf dem Laptop.	kvˈɛn lˈʋft mˈɪt olˈaːmɑː ˈWf deːm lˈæptɔp.
+Qwen läuft mit Ollama auf dem Laptop.	kvˈɛn lˈʋft mˈɪt oːlˈɑːmɑː ˈWf deːm lˈæptɔp.
 Ich programmiere in TypeScript mit VSCode.	ɪç pɾoːɡɾamˈiːrə ˈɪn tˈIpskɾɪpt mˈɪt viːˈɛs koːt.
 Der Checkpoint wurde per CLI geladen.	dɛɾ ʧˈɛkpɔɪnt vˌʊɐdə pˈɛɾ ʦeːɛlˈI ɡəlˈɑːdən.
 Die API liefert JSON über HTTPS.	diː eːpiːˈI lˈiːfɜt ʤˈeːsən ˈyːbɜ ˌeːʧtˌiːtˈiːpˌiːˈɛs.
@@ -143,10 +144,10 @@ Das Startup arbeitet mit KI und Machine Learning.	das stˈɑːtˌʌp ˈaɾbItət
 Louis Vuitton und Moët & Chandon.	luːˈiː vyitˈɔ ˈʊnt mɔˈɛ ʃɑdˈɔ.
 
 # Overrides: Fremdwörter und de_native
-Die Garage steht neben der Oase.	diː ɡarˈɑːʒə ʃtˈeːt nˈeːbən dɛɾ oˈaːzə.
+Die Garage steht neben der Oase.	diː ɡarˈɑːʒə ʃtˈeːt nˈeːbən dɛɾ oːˈɑːzə.
 Eine Reportage über Sabotage.	ˌInə rɛpɔɾtˈɑːʒə ˈyːbɜ zaboːtˈɑːʒə.
-Die Prothese und die Synthese.	diː pɾotˈeːzə ˈʊnt diː zyntˈeːzə.
-Er fuhr nach Kiew in die USA.	ɛɾ fˈuːɾ nˈɑːx kˈiːɛf ˈɪn diː ˌuːɛsˈaː.
+Die Prothese und die Synthese.	diː pɾoːtˈeːzə ˈʊnt diː zyntˈeːzə.
+Er fuhr nach Kiew in die USA.	ɛɾ fˈuːɾ nˈɑːx kˈiːɛf ˈɪn diː ˌuːɛsˈɑː.
 Die Teile liegen aneinander.	diː tˈIlə lˈiːɡən ˌanInˈandɜ.
 Wir arbeiten miteinander und nebeneinander.	viːɾ ˈaɾbItən mˈɪtˌInandɜ ˈʊnt nˌeːbənInˈandɜ.
 
@@ -158,7 +159,7 @@ Mit viel Elan und Engagement.	mˈɪt fˈiːl eːlˈɑːn ˈʊnt aŋɡaʒəmˈaŋ
 
 # Englische Wörter ohne Override
 Der Synthesizer klingt gut.	dɛɾ sˈɪnθəsˌIzə klˈɪŋt ɡˈuːt.
-Das Meeting wurde gecancelt.	das mˈeːtɪŋ vˌʊɐdə ɡəkˈankəlt.
+Das Meeting wurde gecancelt.	das mˈiːtɪŋ vˌʊɐdə ɡəkˈɛnsəlt.
 Sie ist ein echter Fan.	ziː ɪst ˈIn ˈɛçtɜ fˈæn.
 
 # Eigennamen

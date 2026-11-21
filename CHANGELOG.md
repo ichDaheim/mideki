@@ -13,6 +13,71 @@ Jeder Eintrag nennt `output_fingerprint()` und `token_map_sha256()` der Version;
 `tests/test_versioning.py` prüft, dass der Eintrag der aktuellen Version den aktuellen
 Fingerabdruck enthält.
 
+## 1.5.0 – 2026-11-16
+
+- output_fingerprint: `b9385613d542545985a6ad95d59410aabeaf3bae67624ba9e77ee59206e1777d`
+- token_map_sha256: `3af12687579c50956ab35be02ab38da1b8d1f1713362266dc76c8e1729e95724`
+
+554 neue Overrides, 280 bestehende geändert, keine entfernt. Sechs Golden-Sätze ändern sich: „Das Meeting
+wurde gecancelt.“ (`mˈeːtɪŋ` → `mˈiːtɪŋ`, `ɡəkˈankəlt` → `ɡəkˈɛnsəlt`), „Eine Softwarelösung für alle.“
+(`zˈɔftvarˌɛløːzˌʊŋ` → `sˈɔftvɛːɐlˌøːzʊŋ`) sowie Ollama, Oase, Prothese und USA (Vokale, siehe unten).
+
+- Normalisierung: Ein Tag ohne Leerzeichen vor dem Monatsnamen wird als Ordinalzahl gelesen („Am 1.Januar“ →
+  „Am ersten Januar“, bisher „Am eins.Januar“). Neuer Golden-Satz „Am 3.Mai feiern wir.“
+
+- Geändert: Vokale, die im kikiri-de-Training (train.txt, 2,08 Mio. Wörter) fast nie vorkommen, durch die
+  gut trainierte Form ersetzt, die espeak-ng selbst für die Grundwörter liefert: kurzes `o` (20-mal trainiert)
+  → `oː` (223 Einträge, v. a. die -problem-Komposita: `pɾoblˌeːm` → `pɾoːblˌeːm`, wie „Problem“ →
+  `pɾoːblˈeːm`), `aː` (246) → `ɑː` (37), kurzes `u` (8) → `uː`, kurzes `e` (161) → `eː`, `œː` (17) → `œɾ`,
+  kurzes `y` in ü-Wörtern → `ʏ` (Honorarkürzung, Küchenchefin).
+- Korrigiert: `fahrzeugmodelle(n)` endete auf `-ɛle(n)` statt `-ɛlə(n)`; `end-to-end` enthielt Punkte
+  (`end.tu.end`, also Pausen) → `ˈɛnt tuː ˈɛnt`; `elysée-palast` hatte `eːː` → `eːlizˈeːpalˌast`.
+
+Gefunden beim Schreiben von Ergänzungssätzen für das kikiri-de-Training: Wörter, die espeak-ng falsch liest.
+Englisches „ei“ als `ɛɪ`, englisches -y am Wortende als kurzes `i`, `œɾ` statt `ɜː`, `v`/`ɔ` statt `w`/`ɒ`.
+Komposita mit englischem Kopfwort liest espeak-ng meist deutsch („Softwarefehler“ → `zˈɔftvarˌeː…`,
+„Jobcenter“ → `jɔpkˈɛntɜ`, „Nachtclub“ → `nˈaxtkluːp`); Schlüssel ohne Bindestrich decken die
+Bindestrich-Schreibung mit ab.
+
+- `en`:
+  - Face, Game(s), Gaming, Gameplay, Hobby, Lobby/Lobbyist(in/en)/Lobbyismus, Story/Storys/Stories, Storyboard,
+    Image(s) samt Imagefilm/-schaden/-kampagne (`ˈɪmɪʧ`), Meeting(s), Feature(s), Homeoffice, Coach/Coaching,
+    gecancelt/canceln, Interview(s), Weekend(s), Wifi, Wow, Hollywood, Lockdown(s), Burnout, Knockout, Tower,
+    Gateway, Workaround, World, Worst Case, Work-Life-Balance, Wordpress, Smartwatch, Hotdog, Blog(s),
+    Hotspot(s), Hotline(s), Jogging/joggen/Jogger(in), Girl(s), Flirt/flirten, Nerd(s), E-Learning,
+    Songwriter(in), Songtext(e), Clown(s), Sweater, Wireless, Bodyguard(s), Bodybuilding, Body.
+  - Englische -y-Wörter mit kurzem `i`: Smoothie, Hoodie, Selfie, Hippie, Cookie, Rookie, Zombie, Barbie,
+    Brownie, Teddy, Buddy, Penny, trendy, fancy, crazy, lucky, funny, sunny, Bully, Daily, Comedy, Energy,
+    Privacy, Policy, Cherry, Cranberry, Hockey/Eishockey, Jockey, Money, Honey; Plurale und Komposita
+    von Party, City, Baby, Lady, Teenager, Rugby, Country, Smiley, Junkie (espeak-ng: „Partys“ → `pˈaɾtyːs`).
+  - `ʤ`: Jetlag, Jetset, Jetski, Privatjet, Jumbojet(s), Jazz-Komposita (Jazzband, Jazzclub, Jazzmusik …),
+    Job-Komposita (Jobcenter, Jobbörse, Jobsuche, Nebenjob, Minijob, Traumjob …), jobben, Jeansjacke/-hose,
+    Gentleman/Gentlemen, Challenge(s), College, Jeep(s), Joker, Jingle, Jukebox, Pager, Engineering,
+    managen/gemanagt, Manager- und Management-Komposita (Projektmanager(in), Krisenmanagement …).
+  - `æ`: Camping-Komposita, Camper, campen, Hackerangriff(e), Fanclub, Fanshop, Fanmeile, Fußballfans,
+    Smartphone-/Handy-App, Feedbacks, Rapperin, Snackbar, Chatverlauf, Sandwichs, Blackouts, Flashmobs,
+    Crashtests, Spamfilter, Trackpad, Hackathon, Tackling, Webcam(s).
+  - `ʌ`: Bug(s), Hub, Love, Run/Running, Public, Bungee, Lucky, Company, Update-/Upgrade-/Backup-/Startup-
+    Komposita (Sicherheitsupdate(s), geupdatet, upgedatet …), Club-Komposita (Nachtclub, Golfclub …),
+    Lunchpaket, Sonntagsbrunch, Puzzleteil(e), Coversong, Coverbands, Drumsticks, Stand-up-Comedy.
+  - `ɛɪ`: Dating/Dates, Mail-Komposita (Mailadresse, Spammail, Phishingmail, Rundmail …), Spaceshuttle,
+    Cyberspace, Tape, Cake, Rave, Gate(s), skaten/Skater(in)/Skatepark, Stage, Shake/Milkshake(s), Steak(s),
+    Hater, Stakeholder, Mainstream, Trainee(s), Pancake(s), Spraydose, Sprays, Hey, Mayday, Birthday;
+    Namen Jane, Kate, James, Jake, Dave, Taylor, Grace.
+  - Weitere: Software-/Hardware-/Server-/Service-/Workshop-/Shop-Komposita, Thriller-Komposita, Python-Kurs,
+    Score, Highscore, Hardcore, Appstore, Walk, Moonwalk, Open Source, Musical(s), Dschungelcamp, Barkeeper,
+    Beamer, Bands, Manchester, Chelsea, Seattle, Washington, Gin Tonic.
+- `de_foreign`: Garagen-Komposita (Tiefgarage, Garagentor …), Ingenieurbüro, Etagenwohnung, jonglieren,
+  Sabotage-/Spionage-/Massage-Komposita, Orangensaft/-schale/-marmelade, orangefarben, Logenplatz, Jurymitglied,
+  Jurys, Gagen, Regieanweisung, Visagist(in), Engagements, Arrangements, couragiert, Jour fixe, Charge, Rouge,
+  Prestige, Vernissage, Camouflage, Lingerie, Jeton(s), Bonjour; Analyse, Radio, Radiosender, Spion(e), Kakao,
+  Zucchini, Joghurt, präzise, Tumore, Trikots, Rekord, Paris, Kenia, Marathon, Containerschiff(e),
+  barrierefrei, Effizienzkerne(n), Spitzenkandidatin, Arbeitsagentur, Models, Kameramann, Quizabend u. a.
+- `de_native`: Juhu, igitt, oje, Gehaltserhöhung, Terrasse, Dachterrasse, zuklappen, Kinderarbeit,
+  Johannisbeeren, Gummibärchen, Handschuhfach, Konzerns, Betriebsrat, Bürgeramt, Rasenmäher, Sommerfest,
+  Läuferinnen, Staatsschulden, Lagebesprechung, Erdgeschoss, Gesichtserkennung, Bilderkennung,
+  Impfstoffe, Reedereien, Spätschicht, Rücksendekosten u. a.
+
 ## 1.4.0 – 2026-11-14
 
 - output_fingerprint: `cd4a3502bf5abe304bcd43c50a707c8d9b118a334581f10a03b27ef76d1ca7b7`
