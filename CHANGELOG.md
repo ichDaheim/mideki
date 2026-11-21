@@ -13,6 +13,18 @@ Jeder Eintrag nennt `output_fingerprint()` und `token_map_sha256()` der Version;
 `tests/test_versioning.py` prüft, dass der Eintrag der aktuellen Version den aktuellen
 Fingerabdruck enthält.
 
+## 1.6.0 – 2026-11-21
+
+- output_fingerprint: `3f5758c4ae8d0d747b0a70ecc6977c24a1aa5af8d87e9d1940846f91053947a9`
+- token_map_sha256: `3af12687579c50956ab35be02ab38da1b8d1f1713362266dc76c8e1729e95724`
+
+- Normalisierung: Ordinalzahlen bekommen nach „am“, „im“, „vom“, „zum“, „zur“, „beim“, „dem“, „den“, „des“,
+  „einem“, „einen“, „eines“ die Endung -en („bis zum 1. Januar“ → „bis zum ersten Januar“, bisher „zum erste
+  Januar“; vorher galt das nur nach „am“). Nach „der“, „die“, „das“ und ohne Artikel bleibt -e. Bei vollen
+  Daten (`TT.MM.JJJJ`) gilt dieselbe Liste, neu sind dort „zur“, „beim“, „dem“, „des“ und „einem“/„einen“/„eines“
+  („seit dem 24.12.2020“ → „seit dem vierundzwanzigsten Dezember …“, bisher „vierundzwanzigster“).
+  Neuer Golden-Satz „Vom 1. bis zum 3. Mai.“
+
 ## 1.5.0 – 2026-11-16
 
 - output_fingerprint: `b9385613d542545985a6ad95d59410aabeaf3bae67624ba9e77ee59206e1777d`

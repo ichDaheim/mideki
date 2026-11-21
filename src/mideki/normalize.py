@@ -104,6 +104,10 @@ def _ordinal_stem_de(n):
     return stem
 
 
+# Words after which an ordinal takes the weak -en ending: dative/genitive and accusative masculine.
+_ORD_EN_PREFIX = r"am|im|vom|zum|zur|beim|dem|den|des|einem|einen|eines"
+
+
 def _ordinal_with_suffix_de(n, suffix):
     return _ordinal_stem_de(n) + suffix
 
@@ -298,7 +302,7 @@ def normalize_text_de(text):
     def _date_with_prefix_repl(m):
         prefix = m.group(1)
         day, month, year = int(m.group(2)), int(m.group(3)), int(m.group(4))
-        suffix = 'en' if prefix.casefold() in {'am', 'im', 'vom', 'zum', 'den'} else 'e'
+        suffix = 'e' if prefix.casefold() == 'der' else 'en'
         rendered = _render_full_date(day, month, year, suffix)
         if rendered is None:
             return m.group(0)
@@ -311,16 +315,19 @@ def normalize_text_de(text):
             return m.group(0)
         return rendered
 
-    text = re.sub(r"\b(vom|am|im|zum|den|der)\s+(\d{1,2})\.(\d{1,2})\.(\d{4})\b", _date_with_prefix_repl, text, flags=re.IGNORECASE)
+    text = re.sub(rf"\b({_ORD_EN_PREFIX}|der)\s+(\d{{1,2}})\.(\d{{1,2}})\.(\d{{4}})\b", _date_with_prefix_repl, text, flags=re.IGNORECASE)
     text = re.sub(r"\b(\d{1,2})\.(\d{1,2})\.(\d{4})\b", _date_repl, text)
 
     # 7. Ordinals in common article contexts and general mid-sentence ordinals.
     # A day written without a space before the month ("1.Januar") gets one, so it is read as an ordinal.
     text = re.sub(rf"(?<![\d.,])\b(\d{{1,2}})\.(?=(?:{'|'.join(_MONTHS[1:])})\b)", r"\1. ", text)
+    # After these the ordinal takes the weak -en ending ("zum ersten", "dem dritten"); "der", "die",
+    # "das" and no article keep -e ("der erste", "Er wurde zweite").
     text = re.sub(
-        r"\b([Aa]m)\s+(\d+)\.\s",
+        rf"\b({_ORD_EN_PREFIX})\s+(\d+)\.\s",
         lambda m: m.group(1) + " " + _ordinal_stem_de(int(m.group(2))) + "en ",
         text,
+        flags=re.IGNORECASE,
     )
     text = re.sub(
         r"(?<!\d)(\d+)\.\s",
